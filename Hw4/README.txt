@@ -1,11 +1,12 @@
 # Reinforcement Learning and MDPs
 
-
+# URL https://github.com/LeonUBubble/Machine-Learning-7641-Homework/tree/master/Hw4
 # How to run the code
 
 To run the code, the user should use Intellij IDEA, and build the project from this folder.
 
 In the src\burlap\assignment4\ folder, please locate HardGridWorldLauncher_1x1.java and HardGridWorldLauncher_2x2.java.
+
 They corresponse to the glider retrieve process MDP and the Maze MDP, respectively.
 
 Build the project and run these two java file to obtain figures and results.
