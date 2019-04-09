@@ -1,0 +1,2106 @@
+"C:\Program Files\Java\jdk1.8.0_162\bin\java" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=50584:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin" -Dfile.encoding=UTF-8 -classpath "E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\bin;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\colt-1.2.0.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\commons-beanutils-1.6.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\commons-collections-2.1.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\commons-lang3-3.1.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\commons-logging-1.1.1.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\commons-math3-3.2.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\csparsej-1.1.1.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\ejml-0.25.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\guava-18.0.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\hamcrest-core-1.3.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\jackson-annotations-2.2.3.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\jackson-core-2.2.3.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\jackson-databind-2.2.3.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\JavaRLGlueCodec.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\jcommon-1.0.21.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\jfreechart-1.0.17.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\joptimizer-3.2.0.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\joptimizer-3.3.0.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\junit-4.11.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\log4j-1.2.14.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\LPSOLVESolverPack.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\SCPSolver.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\servlet.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\snakeyaml-1.13.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\trove.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\weka-src.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\weka.jar;E:\FAU_laptop_backup\E drive\Backup\Computer Science\CS7641\Assignment 04\cs7641-assignment-4-master\lib\xml-apis-1.0.b2.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar" burlap.assignment4.HardGridWorldLauncher_2x2
+/////Hard Grid World 2x2 Analysis/////
+
+This is your grid world:
+[0,0,1,0,1,0,0,1,0,0,1,1,0,1,0,0,1,1,0,0,1,0]
+[0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0]
+[1,1,0,1,1,1,1,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0]
+[0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,1,1,0,0,1,1]
+[0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0]
+[1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0]
+[1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,0]
+[0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0]
+[0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0]
+[0,0,1,0,1,0,0,0,1,1,1,1,0,1,0,0,1,1,1,0,1,1]
+[0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0]
+[0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0]
+
+
+
+//Value Iteration Analysis//
+Passes: 1
+Passes: 2
+Passes: 3
+Passes: 4
+Passes: 5
+Passes: 6
+Passes: 7
+Passes: 8
+Passes: 9
+Passes: 10
+Passes: 11
+Passes: 12
+Passes: 13
+Passes: 14
+Passes: 15
+Passes: 16
+Passes: 17
+Passes: 18
+Passes: 19
+Passes: 20
+Passes: 21
+Passes: 22
+Passes: 23
+Passes: 24
+Passes: 25
+Passes: 26
+Passes: 27
+Passes: 28
+Passes: 29
+Passes: 30
+Passes: 31
+Passes: 32
+Passes: 33
+Passes: 34
+Passes: 35
+Passes: 36
+Passes: 37
+Passes: 38
+Passes: 39
+Passes: 40
+Passes: 41
+Passes: 42
+Passes: 43
+Passes: 44
+Passes: 45
+Passes: 46
+Passes: 47
+Passes: 48
+Passes: 49
+Passes: 50
+Passes: 51
+Passes: 52
+Passes: 53
+Passes: 54
+Passes: 55
+Passes: 56
+Passes: 57
+Passes: 58
+Passes: 59
+Passes: 60
+Passes: 61
+Passes: 62
+Passes: 63
+Passes: 64
+Passes: 65
+Passes: 66
+Passes: 67
+Passes: 68
+Passes: 69
+Passes: 70
+Passes: 71
+Passes: 72
+Passes: 73
+Passes: 74
+Passes: 75
+Passes: 76
+Passes: 77
+Passes: 78
+Passes: 79
+Passes: 80
+Passes: 81
+Passes: 82
+Passes: 83
+Passes: 84
+Passes: 85
+Passes: 86
+Passes: 87
+Passes: 88
+Passes: 89
+Passes: 90
+Passes: 91
+Passes: 92
+Passes: 93
+Passes: 94
+Passes: 95
+Passes: 96
+Passes: 97
+Passes: 98
+Passes: 99
+Passes: 100
+Passes: 101
+Passes: 102
+Passes: 103
+Passes: 104
+Passes: 105
+Passes: 106
+Passes: 107
+Passes: 108
+Passes: 109
+Passes: 110
+Passes: 111
+Passes: 112
+Passes: 113
+Passes: 114
+Passes: 115
+Passes: 116
+Passes: 117
+Passes: 118
+Passes: 119
+Passes: 120
+Passes: 121
+Passes: 122
+Passes: 123
+Passes: 124
+Passes: 125
+Passes: 126
+Passes: 127
+Passes: 128
+Passes: 129
+Passes: 130
+Passes: 131
+Passes: 132
+Passes: 133
+Passes: 134
+Passes: 135
+Passes: 136
+Passes: 137
+Passes: 138
+Passes: 139
+Passes: 140
+Passes: 141
+Passes: 142
+Passes: 143
+Passes: 144
+Passes: 145
+Passes: 146
+Passes: 147
+Passes: 148
+Passes: 149
+Passes: 150
+Passes: 151
+Passes: 152
+Passes: 153
+Passes: 154
+Passes: 155
+Passes: 156
+Passes: 157
+Passes: 158
+Passes: 159
+Passes: 160
+Passes: 161
+Passes: 162
+Passes: 163
+Passes: 164
+Passes: 165
+Passes: 166
+Passes: 167
+Passes: 168
+Passes: 169
+Passes: 170
+Passes: 171
+Passes: 172
+Passes: 173
+Passes: 174
+Passes: 175
+Passes: 176
+Passes: 177
+Passes: 178
+Passes: 179
+Passes: 180
+Passes: 181
+Passes: 182
+Passes: 183
+Passes: 184
+Passes: 185
+Passes: 186
+Passes: 187
+Passes: 188
+Passes: 189
+Passes: 190
+Passes: 191
+Passes: 192
+Passes: 193
+Passes: 194
+Passes: 195
+Passes: 196
+Passes: 197
+Passes: 198
+Passes: 199
+Passes: 200
+Passes: 201
+Passes: 202
+Passes: 203
+Passes: 204
+Passes: 205
+Passes: 206
+Passes: 207
+Passes: 208
+Passes: 209
+Passes: 210
+Passes: 211
+Passes: 212
+Passes: 213
+Passes: 214
+Passes: 215
+Passes: 216
+Passes: 217
+Passes: 218
+Passes: 219
+Passes: 220
+Passes: 221
+Passes: 222
+Passes: 223
+Passes: 224
+Passes: 225
+Passes: 226
+Passes: 227
+Passes: 228
+Passes: 229
+Passes: 230
+Passes: 231
+Passes: 232
+Passes: 233
+Passes: 234
+Passes: 235
+Passes: 236
+Passes: 237
+Passes: 238
+Passes: 239
+Passes: 240
+Passes: 241
+Passes: 242
+Passes: 243
+Passes: 244
+Passes: 245
+Passes: 246
+Passes: 247
+Passes: 248
+Passes: 249
+Passes: 250
+Passes: 251
+Passes: 252
+Passes: 253
+Passes: 254
+Passes: 255
+Passes: 256
+Passes: 257
+Passes: 258
+Passes: 259
+Passes: 260
+Passes: 261
+Passes: 262
+Passes: 263
+Passes: 264
+Passes: 265
+Passes: 266
+Passes: 267
+Passes: 268
+Passes: 269
+Passes: 270
+Passes: 271
+Passes: 272
+Passes: 273
+Passes: 274
+Passes: 275
+Passes: 276
+Passes: 277
+Passes: 278
+Passes: 279
+Passes: 280
+Passes: 281
+Passes: 282
+Passes: 283
+Passes: 284
+Passes: 285
+Passes: 286
+Passes: 287
+Passes: 288
+Passes: 289
+Passes: 290
+Passes: 291
+Passes: 292
+Passes: 293
+Passes: 294
+Passes: 295
+Passes: 296
+Passes: 297
+Passes: 298
+Passes: 299
+Passes: 300
+Passes: 301
+Passes: 302
+Passes: 303
+Passes: 304
+Passes: 305
+Passes: 306
+Passes: 307
+Passes: 308
+Passes: 309
+Passes: 310
+Passes: 311
+Passes: 312
+Passes: 313
+Passes: 314
+Passes: 315
+Passes: 316
+Passes: 317
+Passes: 318
+Passes: 319
+Passes: 320
+Passes: 321
+Passes: 322
+Passes: 323
+Passes: 324
+Passes: 325
+Passes: 326
+Passes: 327
+Passes: 328
+Passes: 329
+Passes: 330
+Passes: 331
+Passes: 332
+Passes: 333
+Passes: 334
+Passes: 335
+Passes: 336
+Passes: 337
+Passes: 338
+Passes: 339
+Passes: 340
+Passes: 341
+Passes: 342
+Passes: 343
+Passes: 344
+Passes: 345
+Passes: 346
+Passes: 347
+Passes: 348
+Passes: 349
+Passes: 350
+Passes: 351
+Passes: 352
+Passes: 353
+Passes: 354
+Passes: 355
+Passes: 356
+Passes: 357
+Passes: 358
+Passes: 359
+Passes: 360
+Passes: 361
+Passes: 362
+Passes: 363
+Passes: 364
+Passes: 365
+Passes: 366
+Passes: 367
+Passes: 368
+Passes: 369
+Passes: 370
+Passes: 371
+Passes: 372
+Passes: 373
+Passes: 374
+Passes: 375
+Passes: 376
+Passes: 377
+Passes: 378
+Passes: 379
+Passes: 380
+Passes: 381
+Passes: 382
+Passes: 383
+Passes: 384
+Passes: 385
+Passes: 386
+Passes: 387
+Passes: 388
+Passes: 389
+Passes: 390
+Passes: 391
+Passes: 392
+Passes: 393
+Passes: 394
+Passes: 395
+Passes: 396
+Passes: 397
+Passes: 398
+Passes: 399
+Passes: 400
+Passes: 401
+Passes: 402
+Passes: 403
+Passes: 404
+Passes: 405
+Passes: 406
+Passes: 407
+Passes: 408
+Passes: 409
+Passes: 410
+Passes: 411
+Passes: 412
+Passes: 413
+Passes: 414
+Passes: 415
+Passes: 416
+Passes: 417
+Passes: 418
+Passes: 419
+Passes: 420
+Passes: 421
+Passes: 422
+Passes: 423
+Passes: 424
+Passes: 425
+Passes: 426
+Passes: 427
+Passes: 428
+Passes: 429
+Passes: 430
+Passes: 431
+Passes: 432
+Passes: 433
+Passes: 434
+Passes: 435
+Passes: 436
+Passes: 437
+Passes: 438
+Passes: 439
+Passes: 440
+Passes: 441
+Passes: 442
+Passes: 443
+Passes: 444
+Passes: 445
+Passes: 446
+Passes: 447
+Passes: 448
+Passes: 449
+Passes: 450
+Passes: 451
+Passes: 452
+Passes: 453
+Passes: 454
+Passes: 455
+Passes: 456
+Passes: 457
+Passes: 458
+Passes: 459
+Passes: 460
+Passes: 461
+Passes: 462
+Passes: 463
+Passes: 464
+Passes: 465
+Passes: 466
+Passes: 467
+Passes: 468
+Passes: 469
+Passes: 470
+Passes: 471
+Passes: 472
+Passes: 473
+Passes: 474
+Passes: 475
+Passes: 476
+Passes: 477
+Passes: 478
+Passes: 479
+Passes: 480
+Passes: 481
+Passes: 482
+Passes: 483
+Passes: 484
+Passes: 485
+Passes: 486
+Passes: 487
+Passes: 488
+Passes: 489
+Passes: 490
+Passes: 491
+Passes: 492
+Passes: 493
+Passes: 494
+Passes: 495
+Passes: 496
+Passes: 497
+Passes: 498
+Passes: 499
+Passes: 500
+Passes: 501
+Passes: 502
+Passes: 503
+Passes: 504
+Passes: 505
+Passes: 506
+Passes: 507
+Passes: 508
+Passes: 509
+Passes: 510
+Passes: 511
+Passes: 512
+Passes: 513
+Passes: 514
+Passes: 515
+Passes: 516
+Passes: 517
+Passes: 518
+Passes: 519
+Passes: 520
+Passes: 521
+Passes: 522
+Passes: 523
+Passes: 524
+Passes: 525
+Passes: 526
+Passes: 527
+Passes: 528
+Passes: 529
+Passes: 530
+Passes: 531
+Passes: 532
+Passes: 533
+Passes: 534
+Passes: 535
+Passes: 536
+Passes: 537
+Passes: 538
+Passes: 539
+Passes: 540
+Passes: 541
+Passes: 542
+Passes: 543
+Passes: 544
+Passes: 545
+Passes: 546
+Passes: 547
+Passes: 548
+Passes: 549
+Passes: 550
+Passes: 551
+Passes: 552
+Passes: 553
+Passes: 554
+Passes: 555
+Passes: 556
+Passes: 557
+Passes: 558
+Passes: 559
+Passes: 560
+Passes: 561
+Passes: 562
+Passes: 563
+Passes: 564
+Passes: 565
+Passes: 566
+Passes: 567
+Passes: 568
+Passes: 569
+Passes: 570
+Passes: 571
+Passes: 572
+Passes: 573
+Passes: 574
+Passes: 575
+Passes: 576
+Passes: 577
+Passes: 578
+Passes: 579
+Passes: 580
+Passes: 581
+Passes: 582
+Passes: 583
+Passes: 584
+Passes: 585
+Passes: 586
+Passes: 587
+Passes: 588
+Passes: 589
+Passes: 590
+Passes: 591
+Passes: 592
+Passes: 593
+Passes: 594
+Passes: 595
+Passes: 596
+Passes: 597
+Passes: 598
+Passes: 599
+Passes: 600
+Passes: 601
+Passes: 602
+Passes: 603
+Passes: 604
+Passes: 605
+Passes: 606
+Passes: 607
+Passes: 608
+Passes: 609
+Passes: 610
+Passes: 611
+Passes: 612
+Passes: 613
+Passes: 614
+Passes: 615
+Passes: 616
+Passes: 617
+Passes: 618
+Passes: 619
+Passes: 620
+Passes: 621
+Passes: 622
+Passes: 623
+Passes: 624
+Passes: 625
+Passes: 626
+Passes: 627
+Passes: 628
+Passes: 629
+Passes: 630
+Passes: 631
+Passes: 632
+Passes: 633
+Passes: 634
+Passes: 635
+Passes: 636
+Passes: 637
+Passes: 638
+Passes: 639
+Passes: 640
+Passes: 641
+Passes: 642
+Passes: 643
+Passes: 644
+Passes: 645
+Passes: 646
+Passes: 647
+Passes: 648
+Passes: 649
+Passes: 650
+Passes: 651
+Passes: 652
+Passes: 653
+Passes: 654
+Passes: 655
+Passes: 656
+Passes: 657
+Passes: 658
+Passes: 659
+Passes: 660
+Passes: 661
+Passes: 662
+Passes: 663
+Passes: 664
+Passes: 665
+Passes: 666
+Passes: 667
+Passes: 668
+Passes: 669
+Passes: 670
+Passes: 671
+Passes: 672
+Passes: 673
+Passes: 674
+Passes: 675
+Passes: 676
+Passes: 677
+Passes: 678
+Passes: 679
+Passes: 680
+Passes: 681
+Passes: 682
+Passes: 683
+Passes: 684
+Passes: 685
+Passes: 686
+Passes: 687
+Passes: 688
+Passes: 689
+Passes: 690
+Passes: 691
+Passes: 692
+Passes: 693
+Passes: 694
+Passes: 695
+Passes: 696
+Passes: 697
+Passes: 698
+Passes: 699
+Passes: 700
+Passes: 701
+Passes: 702
+Passes: 703
+Passes: 704
+Passes: 705
+Passes: 706
+Passes: 707
+Passes: 708
+Passes: 709
+Passes: 710
+Passes: 711
+Passes: 712
+Passes: 713
+Passes: 714
+Passes: 715
+Passes: 716
+Passes: 717
+Passes: 718
+Passes: 719
+Passes: 720
+Passes: 721
+Passes: 722
+Passes: 723
+Passes: 724
+Passes: 725
+Passes: 726
+Passes: 727
+Passes: 728
+Passes: 729
+Passes: 730
+Passes: 731
+Passes: 732
+Passes: 733
+Passes: 734
+Passes: 735
+Passes: 736
+Passes: 737
+Passes: 738
+Passes: 739
+Passes: 740
+Passes: 741
+Passes: 742
+Passes: 743
+Passes: 744
+Passes: 745
+Passes: 746
+Passes: 747
+Passes: 748
+Passes: 749
+Passes: 750
+Passes: 751
+Passes: 752
+Passes: 753
+Passes: 754
+Passes: 755
+Passes: 756
+Passes: 757
+Passes: 758
+Passes: 759
+Passes: 760
+Passes: 761
+Passes: 762
+Passes: 763
+Passes: 764
+Passes: 765
+Passes: 766
+Passes: 767
+Passes: 768
+Passes: 769
+Passes: 770
+Passes: 771
+Passes: 772
+Passes: 773
+Passes: 774
+Passes: 775
+Passes: 776
+Passes: 777
+Passes: 778
+Passes: 779
+Passes: 780
+Passes: 781
+Passes: 782
+Passes: 783
+Passes: 784
+Passes: 785
+Passes: 786
+Passes: 787
+Passes: 788
+Passes: 789
+Passes: 790
+Passes: 791
+Passes: 792
+Passes: 793
+Passes: 794
+Passes: 795
+Passes: 796
+Passes: 797
+Passes: 798
+Passes: 799
+Passes: 800
+Passes: 801
+Passes: 802
+Passes: 803
+Passes: 804
+Passes: 805
+Passes: 806
+Passes: 807
+Passes: 808
+Passes: 809
+Passes: 810
+Passes: 811
+Passes: 812
+Passes: 813
+Passes: 814
+Passes: 815
+Passes: 816
+Passes: 817
+Passes: 818
+Passes: 819
+Passes: 820
+Passes: 821
+Passes: 822
+Passes: 823
+Passes: 824
+Passes: 825
+Passes: 826
+Passes: 827
+Passes: 828
+Passes: 829
+Passes: 830
+Passes: 831
+Passes: 832
+Passes: 833
+Passes: 834
+Passes: 835
+Passes: 836
+Passes: 837
+Passes: 838
+Passes: 839
+Passes: 840
+Passes: 841
+Passes: 842
+Passes: 843
+Passes: 844
+Passes: 845
+Passes: 846
+Passes: 847
+Passes: 848
+Passes: 849
+Passes: 850
+Passes: 851
+Passes: 852
+Passes: 853
+Passes: 854
+Passes: 855
+Passes: 856
+Passes: 857
+Passes: 858
+Passes: 859
+Passes: 860
+Passes: 861
+Passes: 862
+Passes: 863
+Passes: 864
+Passes: 865
+Passes: 866
+Passes: 867
+Passes: 868
+Passes: 869
+Passes: 870
+Passes: 871
+Passes: 872
+Passes: 873
+Passes: 874
+Passes: 875
+Passes: 876
+Passes: 877
+Passes: 878
+Passes: 879
+Passes: 880
+Passes: 881
+Passes: 882
+Passes: 883
+Passes: 884
+Passes: 885
+Passes: 886
+Passes: 887
+Passes: 888
+Passes: 889
+Passes: 890
+Passes: 891
+Passes: 892
+Passes: 893
+Passes: 894
+Passes: 895
+Passes: 896
+Passes: 897
+Passes: 898
+Passes: 899
+Passes: 900
+Passes: 901
+Passes: 902
+Passes: 903
+Passes: 904
+Passes: 905
+Passes: 906
+Passes: 907
+Passes: 908
+Passes: 909
+Passes: 910
+Passes: 911
+Passes: 912
+Passes: 913
+Passes: 914
+Passes: 915
+Passes: 916
+Passes: 917
+Passes: 918
+Passes: 919
+Passes: 920
+Passes: 921
+Passes: 922
+Passes: 923
+Passes: 924
+Passes: 925
+Passes: 926
+Passes: 927
+Passes: 928
+Passes: 929
+Passes: 930
+Passes: 931
+Passes: 932
+Passes: 933
+Passes: 934
+Passes: 935
+Passes: 936
+Passes: 937
+Passes: 938
+Passes: 939
+Passes: 940
+Passes: 941
+Passes: 942
+Passes: 943
+Passes: 944
+Passes: 945
+Passes: 946
+Passes: 947
+Passes: 948
+Passes: 949
+Passes: 950
+Passes: 951
+Passes: 952
+Passes: 953
+Passes: 954
+Passes: 955
+Passes: 956
+Passes: 957
+Passes: 958
+Passes: 959
+Passes: 960
+Passes: 961
+Passes: 962
+Passes: 963
+Passes: 964
+Passes: 965
+Passes: 966
+Passes: 967
+Passes: 968
+Passes: 969
+Passes: 970
+Passes: 971
+Passes: 972
+Passes: 973
+Passes: 974
+Passes: 975
+Passes: 976
+Passes: 977
+Passes: 978
+Passes: 979
+Passes: 980
+Passes: 981
+Passes: 982
+Passes: 983
+Passes: 984
+Passes: 985
+Passes: 986
+Passes: 987
+Passes: 988
+Passes: 989
+Passes: 990
+Passes: 991
+Passes: 992
+Passes: 993
+Passes: 994
+Passes: 995
+Passes: 996
+Passes: 997
+Passes: 998
+Passes: 999
+Passes: 1000
+Value Iteration,6855,7592,3741,11552,5471,5299,2597,407,1547,690,522,513,645,216,44,56,38,55,43,50,52,41,51,45,42,60,48,43,44,38,37,47,56,44,55,52,44,52,51,47,48,45,40,53,51,39,42,53,46,49,43,50,38,36,49,38,44,42,41,47,37,35,43,41,45,37,41,45,46,45,43,44,45,44,49,44,41,41,46,46,45,46,41,48,41,52,41,46,43,40,48,48,37,46,44,45,36,59,49,39,43,43,46,54,45,42,43,47,46,43,40,43,44,54,45,44,48,38,43,36,36,48,39,42,41,46,42,39,41,39,41,43,41,39,43,45,40,46,43,42,45,40,39,36,51,42,40,49,33,47,43,67,44,39,35,41,46,45,44,54,48,46,43,41,40,38,43,39,40,42,39,51,46,41,43,46,39,42,37,40,42,39,39,54,37,50,40,41,40,55,55,48,48,51,42,38,39,49,42,49,41,45,59,45,37,49,47,40,48,49,41,44,42,45,53,41,41,54,39,40,43,46,56,58,56,42,51,45,40,57,49,45,39,42,45,39,33,57,52,43,41,42,43,43,52,42,44,55,45,44,50,42,36,58,47,46,42,38,41,41,39,44,45,41,50,41,52,42,39,48,40,47,36,45,48,38,46,48,46,44,41,36,49,37,42,40,48,40,47,42,38,40,46,41,44,36,40,41,37,49,49,42,49,43,42,42,48,41,49,40,45,41,49,37,42,50,38,48,41,54,39,45,46,46,45,44,41,42,47,42,42,48,42,44,38,54,40,43,39,41,47,47,40,50,43,47,40,43,49,51,34,45,41,55,45,45,48,48,45,41,41,63,43,37,45,43,39,38,55,54,40,48,44,47,41,38,37,39,42,44,48,46,49,50,49,46,39,38,42,52,45,41,38,41,35,41,52,46,37,46,41,51,40,44,47,44,41,46,38,56,40,44,44,44,52,48,40,48,42,57,48,45,45,48,58,42,45,43,36,38,36,43,47,44,42,48,38,59,43,43,41,59,48,47,41,62,39,45,46,40,41,44,55,47,51,45,46,46,42,43,45,42,40,45,55,42,43,59,46,48,43,43,55,46,46,41,56,45,38,48,62,44,36,42,44,41,43,64,51,49,44,58,43,46,41,49,43,49,41,40,50,40,40,52,35,38,53,43,39,41,42,50,45,58,51,48,39,45,40,44,51,47,48,51,36,51,57,38,46,46,54,49,37,52,45,47,37,42,42,44,57,43,37,43,41,39,40,43,49,51,47,41,44,43,44,44,47,40,48,42,44,45,40,42,55,46,48,46,47,49,33,37,52,44,37,36,46,41,58,37,36,44,35,41,38,37,44,48,47,38,50,49,41,50,45,66,46,48,43,43,42,49,38,41,52,44,42,46,46,48,48,61,39,46,43,48,46,47,40,41,44,39,42,41,47,49,43,45,59,41,60,46,53,37,38,45,43,37,51,38,44,49,37,51,57,55,46,56,39,39,48,43,43,52,40,42,45,41,35,45,35,56,44,52,45,41,41,49,40,36,40,43,49,40,39,50,50,40,46,46,41,46,51,35,35,41,39,41,41,44,47,40,38,48,56,36,40,39,47,42,49,40,44,42,50,49,49,43,44,41,52,45,48,43,55,41,48,45,59,46,54,53,48,56,43,43,43,52,37,43,51,37,49,47,52,44,56,41,54,45,43,47,47,37,50,44,41,47,58,38,46,43,52,48,36,50,39,41,45,43,41,42,37,37,37,42,51,47,49,46,37,50,36,48,54,41,44,44,40,44,40,41,46,50,51,40,42,37,36,40,50,49,39,45,47,39,37,50,42,40,44,34,42,51,45,38,37,51,41,55,45,54,42,38,39,41,38,48,36,50,39,46,50,49,49,43,42,46,44,44,46,52,40,50,41,44,43,50,44,46,59,54,45,39,45,34,53,46,34,41,38,36,38,46,61,48,46,41,44,44,45,44,49,36,47,57,40,47,45,43,37,44,49,46,47,42,43,40,41,33,48,37,40,38,35,46,41,42,42,53,49,46,57,38,41,51,46,60,54,50,41,49,41,43,41,40,62,41,38,51,52,61,47,46,51,38,42,50,42,44,38,55,43,37,41,55,42,53,48,44,52,47,42,38,39,42,49,39,41,46,36,52,45,36,59,52,41,37,41,42,39,47,41,43,54,47,45,44,42,41,45,46,43,41,48,47,38,50,46,43,52,43,46,42,38,58,49,42,49,42,57,36,55,39,42,47,43,41,56,42,52,47,48,52,48,41,44,43,38,45
+
+This is your optimal policy:
+num of rows in policy is 22
+[v,v,*,v,*,v,v,*,v,v,*,*,v,*,>,v,*,*,>,v,*,^]
+[>,>,v,<,*,>,>,>,v,v,*,v,v,*,*,>,>,>,>,>,>,^]
+[*,*,v,*,*,*,*,*,v,v,*,>,>,v,*,*,>,>,>,^,*,^]
+[>,>,>,v,*,>,v,v,<,<,*,v,*,>,v,*,*,*,^,^,*,*]
+[>,>,>,v,*,>,>,v,*,*,*,>,>,>,>,>,>,>,^,^,*,*]
+[*,*,*,>,>,>,>,>,>,>,>,>,>,>,>,^,*,>,^,^,*,*]
+[*,*,*,>,>,>,>,>,>,>,>,^,^,*,*,*,*,*,*,^,*,*]
+[>,v,*,^,*,>,>,^,^,*,^,^,^,*,v,v,<,<,*,^,*,*]
+[>,>,>,>,>,^,*,>,>,>,^,^,^,*,v,v,<,<,*,^,*,*]
+[>,^,*,^,*,>,>,^,*,*,*,*,^,*,v,v,*,*,*,^,*,*]
+[>,>,>,>,>,^,*,^,<,*,>,>,^,*,>,>,>,>,>,^,*,*]
+[^,^,*,^,*,^,>,^,^,*,^,*,^,*,>,>,>,>,>,^,*,*]
+
+
+
+Num generated: 2476; num unique: 173
+//Policy Iteration Analysis//
+Total policy iterations: 1
+Total policy iterations: 2
+Total policy iterations: 3
+Total policy iterations: 4
+Total policy iterations: 5
+Total policy iterations: 6
+Total policy iterations: 7
+Total policy iterations: 8
+Total policy iterations: 9
+Total policy iterations: 10
+Total policy iterations: 11
+Total policy iterations: 12
+Total policy iterations: 13
+Total policy iterations: 14
+Total policy iterations: 15
+Total policy iterations: 16
+Total policy iterations: 17
+Total policy iterations: 18
+Total policy iterations: 19
+Total policy iterations: 20
+Total policy iterations: 21
+Total policy iterations: 22
+Total policy iterations: 23
+Total policy iterations: 24
+Total policy iterations: 25
+Total policy iterations: 26
+Total policy iterations: 27
+Total policy iterations: 28
+Total policy iterations: 29
+Total policy iterations: 30
+Total policy iterations: 31
+Total policy iterations: 32
+Total policy iterations: 33
+Total policy iterations: 34
+Total policy iterations: 35
+Total policy iterations: 36
+Total policy iterations: 37
+Total policy iterations: 38
+Total policy iterations: 39
+Total policy iterations: 40
+Total policy iterations: 41
+Total policy iterations: 42
+Total policy iterations: 43
+Total policy iterations: 44
+Total policy iterations: 45
+Total policy iterations: 46
+Total policy iterations: 47
+Total policy iterations: 48
+Total policy iterations: 49
+Total policy iterations: 50
+Total policy iterations: 51
+Total policy iterations: 52
+Total policy iterations: 53
+Total policy iterations: 54
+Total policy iterations: 55
+Total policy iterations: 56
+Total policy iterations: 57
+Total policy iterations: 58
+Total policy iterations: 59
+Total policy iterations: 60
+Total policy iterations: 61
+Total policy iterations: 62
+Total policy iterations: 63
+Total policy iterations: 64
+Total policy iterations: 65
+Total policy iterations: 66
+Total policy iterations: 67
+Total policy iterations: 68
+Total policy iterations: 69
+Total policy iterations: 70
+Total policy iterations: 71
+Total policy iterations: 72
+Total policy iterations: 73
+Total policy iterations: 74
+Total policy iterations: 75
+Total policy iterations: 76
+Total policy iterations: 77
+Total policy iterations: 78
+Total policy iterations: 79
+Total policy iterations: 80
+Total policy iterations: 81
+Total policy iterations: 82
+Total policy iterations: 83
+Total policy iterations: 84
+Total policy iterations: 85
+Total policy iterations: 86
+Total policy iterations: 87
+Total policy iterations: 88
+Total policy iterations: 89
+Total policy iterations: 90
+Total policy iterations: 91
+Total policy iterations: 92
+Total policy iterations: 93
+Total policy iterations: 94
+Total policy iterations: 95
+Total policy iterations: 96
+Total policy iterations: 97
+Total policy iterations: 98
+Total policy iterations: 99
+Total policy iterations: 100
+Total policy iterations: 101
+Total policy iterations: 102
+Total policy iterations: 103
+Total policy iterations: 104
+Total policy iterations: 105
+Total policy iterations: 106
+Total policy iterations: 107
+Total policy iterations: 108
+Total policy iterations: 109
+Total policy iterations: 110
+Total policy iterations: 111
+Total policy iterations: 112
+Total policy iterations: 113
+Total policy iterations: 114
+Total policy iterations: 115
+Total policy iterations: 116
+Total policy iterations: 117
+Total policy iterations: 118
+Total policy iterations: 119
+Total policy iterations: 120
+Total policy iterations: 121
+Total policy iterations: 122
+Total policy iterations: 123
+Total policy iterations: 124
+Total policy iterations: 125
+Total policy iterations: 126
+Total policy iterations: 127
+Total policy iterations: 128
+Total policy iterations: 129
+Total policy iterations: 130
+Total policy iterations: 131
+Total policy iterations: 132
+Total policy iterations: 133
+Total policy iterations: 134
+Total policy iterations: 135
+Total policy iterations: 136
+Total policy iterations: 137
+Total policy iterations: 138
+Total policy iterations: 139
+Total policy iterations: 140
+Total policy iterations: 141
+Total policy iterations: 142
+Total policy iterations: 143
+Total policy iterations: 144
+Total policy iterations: 145
+Total policy iterations: 146
+Total policy iterations: 147
+Total policy iterations: 148
+Total policy iterations: 149
+Total policy iterations: 150
+Total policy iterations: 151
+Total policy iterations: 152
+Total policy iterations: 153
+Total policy iterations: 154
+Total policy iterations: 155
+Total policy iterations: 156
+Total policy iterations: 157
+Total policy iterations: 158
+Total policy iterations: 159
+Total policy iterations: 160
+Total policy iterations: 161
+Total policy iterations: 162
+Total policy iterations: 163
+Total policy iterations: 164
+Total policy iterations: 165
+Total policy iterations: 166
+Total policy iterations: 167
+Total policy iterations: 168
+Total policy iterations: 169
+Total policy iterations: 170
+Total policy iterations: 171
+Total policy iterations: 172
+Total policy iterations: 173
+Total policy iterations: 174
+Total policy iterations: 175
+Total policy iterations: 176
+Total policy iterations: 177
+Total policy iterations: 178
+Total policy iterations: 179
+Total policy iterations: 180
+Total policy iterations: 181
+Total policy iterations: 182
+Total policy iterations: 183
+Total policy iterations: 184
+Total policy iterations: 185
+Total policy iterations: 186
+Total policy iterations: 187
+Total policy iterations: 188
+Total policy iterations: 189
+Total policy iterations: 190
+Total policy iterations: 191
+Total policy iterations: 192
+Total policy iterations: 193
+Total policy iterations: 194
+Total policy iterations: 195
+Total policy iterations: 196
+Total policy iterations: 197
+Total policy iterations: 198
+Total policy iterations: 199
+Total policy iterations: 200
+Total policy iterations: 201
+Total policy iterations: 202
+Total policy iterations: 203
+Total policy iterations: 204
+Total policy iterations: 205
+Total policy iterations: 206
+Total policy iterations: 207
+Total policy iterations: 208
+Total policy iterations: 209
+Total policy iterations: 210
+Total policy iterations: 211
+Total policy iterations: 212
+Total policy iterations: 213
+Total policy iterations: 214
+Total policy iterations: 215
+Total policy iterations: 216
+Total policy iterations: 217
+Total policy iterations: 218
+Total policy iterations: 219
+Total policy iterations: 220
+Total policy iterations: 221
+Total policy iterations: 222
+Total policy iterations: 223
+Total policy iterations: 224
+Total policy iterations: 225
+Total policy iterations: 226
+Total policy iterations: 227
+Total policy iterations: 228
+Total policy iterations: 229
+Total policy iterations: 230
+Total policy iterations: 231
+Total policy iterations: 232
+Total policy iterations: 233
+Total policy iterations: 234
+Total policy iterations: 235
+Total policy iterations: 236
+Total policy iterations: 237
+Total policy iterations: 238
+Total policy iterations: 239
+Total policy iterations: 240
+Total policy iterations: 241
+Total policy iterations: 242
+Total policy iterations: 243
+Total policy iterations: 244
+Total policy iterations: 245
+Total policy iterations: 246
+Total policy iterations: 247
+Total policy iterations: 248
+Total policy iterations: 249
+Total policy iterations: 250
+Total policy iterations: 251
+Total policy iterations: 252
+Total policy iterations: 253
+Total policy iterations: 254
+Total policy iterations: 255
+Total policy iterations: 256
+Total policy iterations: 257
+Total policy iterations: 258
+Total policy iterations: 259
+Total policy iterations: 260
+Total policy iterations: 261
+Total policy iterations: 262
+Total policy iterations: 263
+Total policy iterations: 264
+Total policy iterations: 265
+Total policy iterations: 266
+Total policy iterations: 267
+Total policy iterations: 268
+Total policy iterations: 269
+Total policy iterations: 270
+Total policy iterations: 271
+Total policy iterations: 272
+Total policy iterations: 273
+Total policy iterations: 274
+Total policy iterations: 275
+Total policy iterations: 276
+Total policy iterations: 277
+Total policy iterations: 278
+Total policy iterations: 279
+Total policy iterations: 280
+Total policy iterations: 281
+Total policy iterations: 282
+Total policy iterations: 283
+Total policy iterations: 284
+Total policy iterations: 285
+Total policy iterations: 286
+Total policy iterations: 287
+Total policy iterations: 288
+Total policy iterations: 289
+Total policy iterations: 290
+Total policy iterations: 291
+Total policy iterations: 292
+Total policy iterations: 293
+Total policy iterations: 294
+Total policy iterations: 295
+Total policy iterations: 296
+Total policy iterations: 297
+Total policy iterations: 298
+Total policy iterations: 299
+Total policy iterations: 300
+Total policy iterations: 301
+Total policy iterations: 302
+Total policy iterations: 303
+Total policy iterations: 304
+Total policy iterations: 305
+Total policy iterations: 306
+Total policy iterations: 307
+Total policy iterations: 308
+Total policy iterations: 309
+Total policy iterations: 310
+Total policy iterations: 311
+Total policy iterations: 312
+Total policy iterations: 313
+Total policy iterations: 314
+Total policy iterations: 315
+Total policy iterations: 316
+Total policy iterations: 317
+Total policy iterations: 318
+Total policy iterations: 319
+Total policy iterations: 320
+Total policy iterations: 321
+Total policy iterations: 322
+Total policy iterations: 323
+Total policy iterations: 324
+Total policy iterations: 325
+Total policy iterations: 326
+Total policy iterations: 327
+Total policy iterations: 328
+Total policy iterations: 329
+Total policy iterations: 330
+Total policy iterations: 331
+Total policy iterations: 332
+Total policy iterations: 333
+Total policy iterations: 334
+Total policy iterations: 335
+Total policy iterations: 336
+Total policy iterations: 337
+Total policy iterations: 338
+Total policy iterations: 339
+Total policy iterations: 340
+Total policy iterations: 341
+Total policy iterations: 342
+Total policy iterations: 343
+Total policy iterations: 344
+Total policy iterations: 345
+Total policy iterations: 346
+Total policy iterations: 347
+Total policy iterations: 348
+Total policy iterations: 349
+Total policy iterations: 350
+Total policy iterations: 351
+Total policy iterations: 352
+Total policy iterations: 353
+Total policy iterations: 354
+Total policy iterations: 355
+Total policy iterations: 356
+Total policy iterations: 357
+Total policy iterations: 358
+Total policy iterations: 359
+Total policy iterations: 360
+Total policy iterations: 361
+Total policy iterations: 362
+Total policy iterations: 363
+Total policy iterations: 364
+Total policy iterations: 365
+Total policy iterations: 366
+Total policy iterations: 367
+Total policy iterations: 368
+Total policy iterations: 369
+Total policy iterations: 370
+Total policy iterations: 371
+Total policy iterations: 372
+Total policy iterations: 373
+Total policy iterations: 374
+Total policy iterations: 375
+Total policy iterations: 376
+Total policy iterations: 377
+Total policy iterations: 378
+Total policy iterations: 379
+Total policy iterations: 380
+Total policy iterations: 381
+Total policy iterations: 382
+Total policy iterations: 383
+Total policy iterations: 384
+Total policy iterations: 385
+Total policy iterations: 386
+Total policy iterations: 387
+Total policy iterations: 388
+Total policy iterations: 389
+Total policy iterations: 390
+Total policy iterations: 391
+Total policy iterations: 392
+Total policy iterations: 393
+Total policy iterations: 394
+Total policy iterations: 395
+Total policy iterations: 396
+Total policy iterations: 397
+Total policy iterations: 398
+Total policy iterations: 399
+Total policy iterations: 400
+Total policy iterations: 401
+Total policy iterations: 402
+Total policy iterations: 403
+Total policy iterations: 404
+Total policy iterations: 405
+Total policy iterations: 406
+Total policy iterations: 407
+Total policy iterations: 408
+Total policy iterations: 409
+Total policy iterations: 410
+Total policy iterations: 411
+Total policy iterations: 412
+Total policy iterations: 413
+Total policy iterations: 414
+Total policy iterations: 415
+Total policy iterations: 416
+Total policy iterations: 417
+Total policy iterations: 418
+Total policy iterations: 419
+Total policy iterations: 420
+Total policy iterations: 421
+Total policy iterations: 422
+Total policy iterations: 423
+Total policy iterations: 424
+Total policy iterations: 425
+Total policy iterations: 426
+Total policy iterations: 427
+Total policy iterations: 428
+Total policy iterations: 429
+Total policy iterations: 430
+Total policy iterations: 431
+Total policy iterations: 432
+Total policy iterations: 433
+Total policy iterations: 434
+Total policy iterations: 435
+Total policy iterations: 436
+Total policy iterations: 437
+Total policy iterations: 438
+Total policy iterations: 439
+Total policy iterations: 440
+Total policy iterations: 441
+Total policy iterations: 442
+Total policy iterations: 443
+Total policy iterations: 444
+Total policy iterations: 445
+Total policy iterations: 446
+Total policy iterations: 447
+Total policy iterations: 448
+Total policy iterations: 449
+Total policy iterations: 450
+Total policy iterations: 451
+Total policy iterations: 452
+Total policy iterations: 453
+Total policy iterations: 454
+Total policy iterations: 455
+Total policy iterations: 456
+Total policy iterations: 457
+Total policy iterations: 458
+Total policy iterations: 459
+Total policy iterations: 460
+Total policy iterations: 461
+Total policy iterations: 462
+Total policy iterations: 463
+Total policy iterations: 464
+Total policy iterations: 465
+Total policy iterations: 466
+Total policy iterations: 467
+Total policy iterations: 468
+Total policy iterations: 469
+Total policy iterations: 470
+Total policy iterations: 471
+Total policy iterations: 472
+Total policy iterations: 473
+Total policy iterations: 474
+Total policy iterations: 475
+Total policy iterations: 476
+Total policy iterations: 477
+Total policy iterations: 478
+Total policy iterations: 479
+Total policy iterations: 480
+Total policy iterations: 481
+Total policy iterations: 482
+Total policy iterations: 483
+Total policy iterations: 484
+Total policy iterations: 485
+Total policy iterations: 486
+Total policy iterations: 487
+Total policy iterations: 488
+Total policy iterations: 489
+Total policy iterations: 490
+Total policy iterations: 491
+Total policy iterations: 492
+Total policy iterations: 493
+Total policy iterations: 494
+Total policy iterations: 495
+Total policy iterations: 496
+Total policy iterations: 497
+Total policy iterations: 498
+Total policy iterations: 499
+Total policy iterations: 500
+Total policy iterations: 501
+Total policy iterations: 502
+Total policy iterations: 503
+Total policy iterations: 504
+Total policy iterations: 505
+Total policy iterations: 506
+Total policy iterations: 507
+Total policy iterations: 508
+Total policy iterations: 509
+Total policy iterations: 510
+Total policy iterations: 511
+Total policy iterations: 512
+Total policy iterations: 513
+Total policy iterations: 514
+Total policy iterations: 515
+Total policy iterations: 516
+Total policy iterations: 517
+Total policy iterations: 518
+Total policy iterations: 519
+Total policy iterations: 520
+Total policy iterations: 521
+Total policy iterations: 522
+Total policy iterations: 523
+Total policy iterations: 524
+Total policy iterations: 525
+Total policy iterations: 526
+Total policy iterations: 527
+Total policy iterations: 528
+Total policy iterations: 529
+Total policy iterations: 530
+Total policy iterations: 531
+Total policy iterations: 532
+Total policy iterations: 533
+Total policy iterations: 534
+Total policy iterations: 535
+Total policy iterations: 536
+Total policy iterations: 537
+Total policy iterations: 538
+Total policy iterations: 539
+Total policy iterations: 540
+Total policy iterations: 541
+Total policy iterations: 542
+Total policy iterations: 543
+Total policy iterations: 544
+Total policy iterations: 545
+Total policy iterations: 546
+Total policy iterations: 547
+Total policy iterations: 548
+Total policy iterations: 549
+Total policy iterations: 550
+Total policy iterations: 551
+Total policy iterations: 552
+Total policy iterations: 553
+Total policy iterations: 554
+Total policy iterations: 555
+Total policy iterations: 556
+Total policy iterations: 557
+Total policy iterations: 558
+Total policy iterations: 559
+Total policy iterations: 560
+Total policy iterations: 561
+Total policy iterations: 562
+Total policy iterations: 563
+Total policy iterations: 564
+Total policy iterations: 565
+Total policy iterations: 566
+Total policy iterations: 567
+Total policy iterations: 568
+Total policy iterations: 569
+Total policy iterations: 570
+Total policy iterations: 571
+Total policy iterations: 572
+Total policy iterations: 573
+Total policy iterations: 574
+Total policy iterations: 575
+Total policy iterations: 576
+Total policy iterations: 577
+Total policy iterations: 578
+Total policy iterations: 579
+Total policy iterations: 580
+Total policy iterations: 581
+Total policy iterations: 582
+Total policy iterations: 583
+Total policy iterations: 584
+Total policy iterations: 585
+Total policy iterations: 586
+Total policy iterations: 587
+Total policy iterations: 588
+Total policy iterations: 589
+Total policy iterations: 590
+Total policy iterations: 591
+Total policy iterations: 592
+Total policy iterations: 593
+Total policy iterations: 594
+Total policy iterations: 595
+Total policy iterations: 596
+Total policy iterations: 597
+Total policy iterations: 598
+Total policy iterations: 599
+Total policy iterations: 600
+Total policy iterations: 601
+Total policy iterations: 602
+Total policy iterations: 603
+Total policy iterations: 604
+Total policy iterations: 605
+Total policy iterations: 606
+Total policy iterations: 607
+Total policy iterations: 608
+Total policy iterations: 609
+Total policy iterations: 610
+Total policy iterations: 611
+Total policy iterations: 612
+Total policy iterations: 613
+Total policy iterations: 614
+Total policy iterations: 615
+Total policy iterations: 616
+Total policy iterations: 617
+Total policy iterations: 618
+Total policy iterations: 619
+Total policy iterations: 620
+Total policy iterations: 621
+Total policy iterations: 622
+Total policy iterations: 623
+Total policy iterations: 624
+Total policy iterations: 625
+Total policy iterations: 626
+Total policy iterations: 627
+Total policy iterations: 628
+Total policy iterations: 629
+Total policy iterations: 630
+Total policy iterations: 631
+Total policy iterations: 632
+Total policy iterations: 633
+Total policy iterations: 634
+Total policy iterations: 635
+Total policy iterations: 636
+Total policy iterations: 637
+Total policy iterations: 638
+Total policy iterations: 639
+Total policy iterations: 640
+Total policy iterations: 641
+Total policy iterations: 642
+Total policy iterations: 643
+Total policy iterations: 644
+Total policy iterations: 645
+Total policy iterations: 646
+Total policy iterations: 647
+Total policy iterations: 648
+Total policy iterations: 649
+Total policy iterations: 650
+Total policy iterations: 651
+Total policy iterations: 652
+Total policy iterations: 653
+Total policy iterations: 654
+Total policy iterations: 655
+Total policy iterations: 656
+Total policy iterations: 657
+Total policy iterations: 658
+Total policy iterations: 659
+Total policy iterations: 660
+Total policy iterations: 661
+Total policy iterations: 662
+Total policy iterations: 663
+Total policy iterations: 664
+Total policy iterations: 665
+Total policy iterations: 666
+Total policy iterations: 667
+Total policy iterations: 668
+Total policy iterations: 669
+Total policy iterations: 670
+Total policy iterations: 671
+Total policy iterations: 672
+Total policy iterations: 673
+Total policy iterations: 674
+Total policy iterations: 675
+Total policy iterations: 676
+Total policy iterations: 677
+Total policy iterations: 678
+Total policy iterations: 679
+Total policy iterations: 680
+Total policy iterations: 681
+Total policy iterations: 682
+Total policy iterations: 683
+Total policy iterations: 684
+Total policy iterations: 685
+Total policy iterations: 686
+Total policy iterations: 687
+Total policy iterations: 688
+Total policy iterations: 689
+Total policy iterations: 690
+Total policy iterations: 691
+Total policy iterations: 692
+Total policy iterations: 693
+Total policy iterations: 694
+Total policy iterations: 695
+Total policy iterations: 696
+Total policy iterations: 697
+Total policy iterations: 698
+Total policy iterations: 699
+Total policy iterations: 700
+Total policy iterations: 701
+Total policy iterations: 702
+Total policy iterations: 703
+Total policy iterations: 704
+Total policy iterations: 705
+Total policy iterations: 706
+Total policy iterations: 707
+Total policy iterations: 708
+Total policy iterations: 709
+Total policy iterations: 710
+Total policy iterations: 711
+Total policy iterations: 712
+Total policy iterations: 713
+Total policy iterations: 714
+Total policy iterations: 715
+Total policy iterations: 716
+Total policy iterations: 717
+Total policy iterations: 718
+Total policy iterations: 719
+Total policy iterations: 720
+Total policy iterations: 721
+Total policy iterations: 722
+Total policy iterations: 723
+Total policy iterations: 724
+Total policy iterations: 725
+Total policy iterations: 726
+Total policy iterations: 727
+Total policy iterations: 728
+Total policy iterations: 729
+Total policy iterations: 730
+Total policy iterations: 731
+Total policy iterations: 732
+Total policy iterations: 733
+Total policy iterations: 734
+Total policy iterations: 735
+Total policy iterations: 736
+Total policy iterations: 737
+Total policy iterations: 738
+Total policy iterations: 739
+Total policy iterations: 740
+Total policy iterations: 741
+Total policy iterations: 742
+Total policy iterations: 743
+Total policy iterations: 744
+Total policy iterations: 745
+Total policy iterations: 746
+Total policy iterations: 747
+Total policy iterations: 748
+Total policy iterations: 749
+Total policy iterations: 750
+Total policy iterations: 751
+Total policy iterations: 752
+Total policy iterations: 753
+Total policy iterations: 754
+Total policy iterations: 755
+Total policy iterations: 756
+Total policy iterations: 757
+Total policy iterations: 758
+Total policy iterations: 759
+Total policy iterations: 760
+Total policy iterations: 761
+Total policy iterations: 762
+Total policy iterations: 763
+Total policy iterations: 764
+Total policy iterations: 765
+Total policy iterations: 766
+Total policy iterations: 767
+Total policy iterations: 768
+Total policy iterations: 769
+Total policy iterations: 770
+Total policy iterations: 771
+Total policy iterations: 772
+Total policy iterations: 773
+Total policy iterations: 774
+Total policy iterations: 775
+Total policy iterations: 776
+Total policy iterations: 777
+Total policy iterations: 778
+Total policy iterations: 779
+Total policy iterations: 780
+Total policy iterations: 781
+Total policy iterations: 782
+Total policy iterations: 783
+Total policy iterations: 784
+Total policy iterations: 785
+Total policy iterations: 786
+Total policy iterations: 787
+Total policy iterations: 788
+Total policy iterations: 789
+Total policy iterations: 790
+Total policy iterations: 791
+Total policy iterations: 792
+Total policy iterations: 793
+Total policy iterations: 794
+Total policy iterations: 795
+Total policy iterations: 796
+Total policy iterations: 797
+Total policy iterations: 798
+Total policy iterations: 799
+Total policy iterations: 800
+Total policy iterations: 801
+Total policy iterations: 802
+Total policy iterations: 803
+Total policy iterations: 804
+Total policy iterations: 805
+Total policy iterations: 806
+Total policy iterations: 807
+Total policy iterations: 808
+Total policy iterations: 809
+Total policy iterations: 810
+Total policy iterations: 811
+Total policy iterations: 812
+Total policy iterations: 813
+Total policy iterations: 814
+Total policy iterations: 815
+Total policy iterations: 816
+Total policy iterations: 817
+Total policy iterations: 818
+Total policy iterations: 819
+Total policy iterations: 820
+Total policy iterations: 821
+Total policy iterations: 822
+Total policy iterations: 823
+Total policy iterations: 824
+Total policy iterations: 825
+Total policy iterations: 826
+Total policy iterations: 827
+Total policy iterations: 828
+Total policy iterations: 829
+Total policy iterations: 830
+Total policy iterations: 831
+Total policy iterations: 832
+Total policy iterations: 833
+Total policy iterations: 834
+Total policy iterations: 835
+Total policy iterations: 836
+Total policy iterations: 837
+Total policy iterations: 838
+Total policy iterations: 839
+Total policy iterations: 840
+Total policy iterations: 841
+Total policy iterations: 842
+Total policy iterations: 843
+Total policy iterations: 844
+Total policy iterations: 845
+Total policy iterations: 846
+Total policy iterations: 847
+Total policy iterations: 848
+Total policy iterations: 849
+Total policy iterations: 850
+Total policy iterations: 851
+Total policy iterations: 852
+Total policy iterations: 853
+Total policy iterations: 854
+Total policy iterations: 855
+Total policy iterations: 856
+Total policy iterations: 857
+Total policy iterations: 858
+Total policy iterations: 859
+Total policy iterations: 860
+Total policy iterations: 861
+Total policy iterations: 862
+Total policy iterations: 863
+Total policy iterations: 864
+Total policy iterations: 865
+Total policy iterations: 866
+Total policy iterations: 867
+Total policy iterations: 868
+Total policy iterations: 869
+Total policy iterations: 870
+Total policy iterations: 871
+Total policy iterations: 872
+Total policy iterations: 873
+Total policy iterations: 874
+Total policy iterations: 875
+Total policy iterations: 876
+Total policy iterations: 877
+Total policy iterations: 878
+Total policy iterations: 879
+Total policy iterations: 880
+Total policy iterations: 881
+Total policy iterations: 882
+Total policy iterations: 883
+Total policy iterations: 884
+Total policy iterations: 885
+Total policy iterations: 886
+Total policy iterations: 887
+Total policy iterations: 888
+Total policy iterations: 889
+Total policy iterations: 890
+Total policy iterations: 891
+Total policy iterations: 892
+Total policy iterations: 893
+Total policy iterations: 894
+Total policy iterations: 895
+Total policy iterations: 896
+Total policy iterations: 897
+Total policy iterations: 898
+Total policy iterations: 899
+Total policy iterations: 900
+Total policy iterations: 901
+Total policy iterations: 902
+Total policy iterations: 903
+Total policy iterations: 904
+Total policy iterations: 905
+Total policy iterations: 906
+Total policy iterations: 907
+Total policy iterations: 908
+Total policy iterations: 909
+Total policy iterations: 910
+Total policy iterations: 911
+Total policy iterations: 912
+Total policy iterations: 913
+Total policy iterations: 914
+Total policy iterations: 915
+Total policy iterations: 916
+Total policy iterations: 917
+Total policy iterations: 918
+Total policy iterations: 919
+Total policy iterations: 920
+Total policy iterations: 921
+Total policy iterations: 922
+Total policy iterations: 923
+Total policy iterations: 924
+Total policy iterations: 925
+Total policy iterations: 926
+Total policy iterations: 927
+Total policy iterations: 928
+Total policy iterations: 929
+Total policy iterations: 930
+Total policy iterations: 931
+Total policy iterations: 932
+Total policy iterations: 933
+Total policy iterations: 934
+Total policy iterations: 935
+Total policy iterations: 936
+Total policy iterations: 937
+Total policy iterations: 938
+Total policy iterations: 939
+Total policy iterations: 940
+Total policy iterations: 941
+Total policy iterations: 942
+Total policy iterations: 943
+Total policy iterations: 944
+Total policy iterations: 945
+Total policy iterations: 946
+Total policy iterations: 947
+Total policy iterations: 948
+Total policy iterations: 949
+Total policy iterations: 950
+Total policy iterations: 951
+Total policy iterations: 952
+Total policy iterations: 953
+Total policy iterations: 954
+Total policy iterations: 955
+Total policy iterations: 956
+Total policy iterations: 957
+Total policy iterations: 958
+Total policy iterations: 959
+Total policy iterations: 960
+Total policy iterations: 961
+Total policy iterations: 962
+Total policy iterations: 963
+Total policy iterations: 964
+Total policy iterations: 965
+Total policy iterations: 966
+Total policy iterations: 967
+Total policy iterations: 968
+Total policy iterations: 969
+Total policy iterations: 970
+Total policy iterations: 971
+Total policy iterations: 972
+Total policy iterations: 973
+Total policy iterations: 974
+Total policy iterations: 975
+Total policy iterations: 976
+Total policy iterations: 977
+Total policy iterations: 978
+Total policy iterations: 979
+Total policy iterations: 980
+Total policy iterations: 981
+Total policy iterations: 982
+Total policy iterations: 983
+Total policy iterations: 984
+Total policy iterations: 985
+Total policy iterations: 986
+Total policy iterations: 987
+Total policy iterations: 988
+Total policy iterations: 989
+Total policy iterations: 990
+Total policy iterations: 991
+Total policy iterations: 992
+Total policy iterations: 993
+Total policy iterations: 994
+Total policy iterations: 995
+Total policy iterations: 996
+Total policy iterations: 997
+Total policy iterations: 998
+Total policy iterations: 999
+Total policy iterations: 1000
+Policy Iteration,22050,6749,20946,18157,52772,66855,61112,19931,6768,3544,1790,733,570,1707,284,959,128,50,46,37,42,40,38,44,45,41,62,45,45,56,54,50,47,41,46,38,50,42,44,44,40,42,56,34,36,51,37,40,37,47,48,45,38,49,40,47,40,45,39,40,50,39,36,54,38,41,48,43,35,41,44,48,37,49,40,48,55,39,38,50,47,40,40,48,49,38,34,40,47,48,45,43,45,50,41,52,40,42,38,45,41,41,46,48,45,40,43,44,42,43,49,46,45,48,46,55,43,38,44,47,44,45,48,45,51,47,37,42,48,54,48,46,53,37,38,45,47,36,40,47,42,49,41,43,40,46,45,36,37,44,43,45,43,39,46,48,50,51,47,42,48,36,38,40,41,35,44,50,53,55,46,41,39,43,46,42,52,39,43,47,47,53,49,48,41,37,53,42,42,45,52,42,45,54,45,45,34,40,41,42,42,43,50,35,43,41,46,43,39,47,46,41,43,45,41,48,45,42,44,42,40,47,41,44,54,47,42,40,55,33,48,45,42,50,46,40,44,41,40,42,47,41,44,44,35,45,41,53,44,45,58,39,43,39,52,50,40,33,43,53,36,47,47,50,49,46,40,44,43,51,35,45,48,63,40,50,47,43,55,44,44,57,52,42,43,51,42,37,39,43,37,47,41,41,44,47,51,39,41,46,57,49,54,42,47,49,44,46,54,40,54,48,37,42,48,49,41,43,60,41,46,47,42,45,51,47,42,38,39,43,48,37,54,46,38,44,42,36,49,40,46,36,40,43,42,47,42,51,40,45,48,46,45,42,55,50,40,44,48,41,47,45,48,41,45,43,39,38,43,49,38,45,47,41,53,41,48,50,39,40,47,39,41,42,63,38,40,60,47,59,51,41,42,53,45,42,44,46,38,39,49,43,44,52,41,49,41,44,40,44,41,46,48,48,48,48,35,41,51,58,41,52,46,42,46,41,43,39,36,39,38,44,50,51,44,59,36,41,54,33,50,47,43,60,36,39,47,47,44,48,42,50,50,46,46,55,47,48,48,55,41,52,36,55,59,44,47,43,44,47,48,37,49,42,50,47,44,43,44,54,48,49,48,53,50,51,39,39,37,52,44,40,40,41,39,46,51,48,40,47,37,52,58,43,41,42,48,45,42,45,46,38,43,42,37,44,38,45,39,48,45,49,45,43,35,42,37,48,45,46,45,37,44,35,34,43,50,40,49,44,43,43,46,43,42,49,38,46,45,42,60,39,42,35,41,41,39,52,41,50,57,49,52,46,48,40,37,48,46,39,43,52,33,43,47,44,37,42,43,40,38,39,46,41,39,42,59,39,47,42,47,40,39,42,52,49,47,46,61,47,44,42,41,39,49,45,53,46,50,41,39,46,57,39,51,56,43,40,41,36,40,47,48,54,42,47,37,43,57,46,41,47,41,44,41,42,35,44,46,43,50,46,41,36,44,38,47,38,61,46,37,52,53,43,49,60,37,37,43,40,53,35,48,39,44,42,42,38,40,51,44,42,39,45,44,54,45,41,43,46,43,40,43,54,41,36,49,51,41,51,46,58,42,45,45,43,43,37,39,44,41,55,35,47,46,45,36,41,51,40,44,38,57,42,58,45,43,44,56,40,57,41,48,34,47,58,41,42,40,48,51,45,56,37,52,41,40,36,38,36,47,52,48,35,38,46,39,35,41,35,38,40,57,43,46,44,45,45,43,53,38,44,39,53,42,65,46,40,43,53,44,39,41,37,41,53,40,51,42,43,46,38,37,44,51,45,39,47,46,39,35,39,55,55,60,36,43,46,48,49,40,40,42,49,43,43,39,45,37,41,35,54,43,49,40,48,42,37,40,35,45,51,39,51,41,45,38,38,39,50,52,39,38,40,41,42,43,41,41,54,43,37,45,43,37,51,40,49,38,53,44,41,43,53,37,56,41,50,48,44,45,35,44,39,54,43,37,36,43,47,45,51,43,55,40,43,44,39,36,54,38,49,41,40,53,48,46,48,48,49,44,40,43,43,49,43,51,45,45,49,52,57,76,48,42,46,40,44,52,54,50,46,44,38,42,47,48,39,46,51,46,43,36,54,43,51,39,59,36,38,46,51,50,47,47,45,44,44,44,49,51,51,48,42,46,55,44,46,41,45,38,51,53,51,47,41,36,44,44,39,46,49,35,44,46,41,37,51,47,47,36,40,51,48,48,50,39,44,50,46,42,42,48,52,39,38,37,37,47,41,39,38,49,43,49,44,45,39,46,51
+Passes: 29
+
+This is your optimal policy:
+num of rows in policy is 22
+[>,v,*,v,*,>,v,*,v,v,*,*,v,*,>,v,*,*,>,v,*,<]
+[>,>,v,<,*,>,>,>,v,v,*,v,v,*,*,>,>,>,>,>,>,^]
+[*,*,v,*,*,*,*,*,v,v,*,>,>,v,*,*,>,>,>,^,*,^]
+[>,>,>,v,*,>,v,v,<,<,*,v,*,>,v,*,*,*,^,^,*,*]
+[>,>,>,v,*,>,>,v,*,*,*,>,>,>,>,>,>,>,^,^,*,*]
+[*,*,*,>,>,>,>,>,>,>,>,>,>,>,>,^,*,>,^,^,*,*]
+[*,*,*,>,>,>,>,>,>,>,>,^,^,*,*,*,*,*,*,^,*,*]
+[>,v,*,^,*,>,>,^,^,*,^,^,^,*,v,v,<,<,*,^,*,*]
+[>,>,>,>,>,^,*,>,>,>,^,^,^,*,v,v,<,<,*,^,*,*]
+[>,^,*,^,*,>,>,^,*,*,*,*,^,*,v,v,*,*,*,^,*,*]
+[>,>,>,>,>,^,*,^,<,*,>,>,^,*,>,>,>,>,>,^,*,*]
+[^,^,*,^,*,^,>,^,^,*,^,*,^,*,>,>,>,>,>,^,*,*]
+
+
+
+Num generated: 2476; num unique: 173
+//Q Learning Analysis//
+Q Learning,1384,718,422,339,1658,553,378,798,302,116,358,750,126,566,825,327,112,359,173,201,192,313,182,293,88,134,98,256,87,254,1066,42,94,183,81,146,192,118,169,488,308,242,118,118,110,265,272,94,200,186,268,585,89,189,55,100,100,133,144,186,72,80,57,71,156,63,68,156,104,145,112,180,647,100,125,107,114,147,69,193,194,160,123,120,101,67,174,57,96,91,94,308,353,208,99,106,65,108,80,98,110,90,281,106,129,202,136,64,138,59,322,112,140,46,165,103,79,58,183,87,305,201,75,61,167,60,120,228,115,86,74,162,212,84,80,176,81,67,68,110,54,110,47,112,121,181,103,87,460,180,272,170,135,84,134,95,125,62,179,107,127,157,66,48,97,79,165,200,94,121,188,65,89,359,119,171,115,192,75,93,119,247,123,139,56,107,65,115,77,105,93,129,77,115,193,73,68,69,348,157,194,134,134,131,265,99,89,238,77,74,82,109,196,69,90,202,190,100,64,269,105,93,194,119,74,84,64,252,100,85,102,90,228,168,130,84,104,51,133,124,75,56,278,113,87,126,196,161,146,92,182,88,86,243,171,83,132,110,168,150,121,177,77,120,66,99,85,114,68,90,89,143,125,62,87,90,75,70,114,188,111,82,87,149,140,216,98,85,138,105,110,123,53,153,86,52,101,89,128,123,185,315,196,87,150,54,76,72,260,102,149,280,113,108,96,198,71,104,72,114,94,91,121,100,142,101,215,64,125,120,134,49,145,61,135,112,102,107,185,163,67,125,103,82,286,99,113,345,303,224,181,156,141,114,100,143,85,122,197,71,110,104,62,140,109,172,144,180,83,212,75,146,61,153,125,153,56,153,85,77,112,91,137,88,43,116,50,114,137,193,118,91,129,67,74,81,89,77,109,60,117,176,47,81,112,101,82,95,128,91,104,76,71,175,83,70,110,119,137,139,107,58,155,127,80,86,81,108,224,74,592,188,59,117,253,118,253,98,94,106,253,90,124,272,140,79,192,86,77,97,71,174,132,112,51,69,97,342,141,111,97,79,69,367,60,140,69,72,81,91,66,75,225,88,93,104,115,78,118,101,100,132,91,125,313,91,139,67,74,104,128,125,281,135,73,86,122,189,85,197,116,197,335,76,72,87,114,48,105,75,106,87,126,147,95,95,69,173,66,206,141,77,162,147,106,242,117,139,344,57,191,93,63,69,74,116,75,180,268,111,115,102,98,131,84,69,137,193,55,113,109,83,54,154,128,158,90,92,81,315,87,119,124,140,89,117,86,89,187,66,211,92,95,74,96,70,166,502,138,84,61,49,161,207,161,51,126,89,69,83,79,77,59,73,287,130,45,114,63,83,110,177,77,343,62,119,70,128,133,154,66,57,181,135,56,138,584,69,73,278,120,68,89,85,74,95,51,62,83,124,109,75,658,73,70,86,91,119,116,202,101,155,107,91,143,103,150,59,53,123,198,140,61,188,57,130,83,63,305,94,81,69,104,98,79,105,100,85,62,195,79,132,101,152,306,45,202,106,205,111,118,66,83,57,95,128,89,66,160,191,150,61,76,113,96,127,74,160,128,74,86,401,74,77,66,225,90,121,51,168,198,64,89,393,106,215,90,78,151,140,99,82,222,120,109,113,130,111,95,47,94,126,127,62,155,93,291,150,338,128,87,85,109,162,124,224,70,106,66,115,89,248,120,110,113,60,119,68,119,226,96,134,211,102,131,176,95,105,218,182,123,92,194,79,65,184,58,309,107,110,193,77,147,196,148,129,68,263,68,78,119,130,152,119,266,158,116,219,148,103,108,245,83,175,80,136,103,102,70,121,127,84,107,153,102,105,200,112,165,116,122,51,122,67,92,128,160,106,100,59,184,308,228,113,82,182,170,159,120,75,339,85,75,57,296,149,150,164,122,223,118,163,110,133,141,53,281,90,119,87,49,125,96,71,57,106,111,160,114,111,144,71,166,78,60,80,103,135,82,268,60,94,88,123,86,183,70,82,124,119,142,164,78,259,137,360,123,155,104,55,77,72,76,177,124,124,152,90,62,45,86,56,115,206,61,68,147,150,65,353,79,55,118,182,76,186,82,49,72,110,107,323,159,67,176,100,67,107,340,69,63,119,107,83,80,154,65,95,148,161,113,145,86,286,129,67,99,184,413,72,131,75,109,107,113,119,74,59,114,116,112,101,158,249,65,290,82,53,144,67,108,140,92,251,99,211,64,107,73,76,90,77,79,67,198,226,52,122,189,202
+Passes: 29
+
+This is your optimal policy:
+num of rows in policy is 22
+[v,v,*,<,*,<,>,*,<,v,*,*,<,*,>,v,*,*,v,<,*,v]
+[v,^,v,^,*,^,>,>,^,>,*,v,<,*,*,>,>,>,>,>,>,^]
+[*,*,v,*,*,*,*,*,v,>,*,v,<,v,*,*,v,^,^,<,*,^]
+[v,^,v,v,*,<,^,v,<,^,*,^,*,>,v,*,*,*,^,<,*,*]
+[v,>,>,v,*,>,v,v,*,*,*,>,>,v,>,>,>,>,>,^,*,*]
+[*,*,*,v,v,>,>,>,^,v,v,^,>,>,^,^,*,^,^,^,*,*]
+[*,*,*,>,>,>,>,^,>,>,^,>,^,*,*,*,*,*,*,^,*,*]
+[^,v,*,^,*,>,^,>,^,*,^,^,<,*,v,^,v,v,*,^,*,*]
+[v,v,^,^,>,^,*,>,>,>,^,^,>,*,^,v,<,>,*,>,*,*]
+[>,v,*,^,*,>,^,^,*,*,*,*,^,*,>,<,*,*,*,<,*,*]
+[>,>,>,>,>,^,*,v,<,*,v,v,^,*,^,v,>,<,v,^,*,*]
+[<,^,*,^,*,^,<,v,<,*,^,*,<,*,>,v,^,<,<,<,*,*]
+
+
+
+Num generated: 2476; num unique: 173
+//Aggregate Analysis//
+
+The data below shows the number of steps/actions the agent required to reach 
+the terminal state given the number of iterations the algorithm was run.
+Iterations,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,800,801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,886,887,888,889,890,891,892,893,894,895,896,897,898,899,900,901,902,903,904,905,906,907,908,909,910,911,912,913,914,915,916,917,918,919,920,921,922,923,924,925,926,927,928,929,930,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,960,961,962,963,964,965,966,967,968,969,970,971,972,973,974,975,976,977,978,979,980,981,982,983,984,985,986,987,988,989,990,991,992,993,994,995,996,997,998,999,1000
+Value Iteration,6855,7592,3741,11552,5471,5299,2597,407,1547,690,522,513,645,216,44,56,38,55,43,50,52,41,51,45,42,60,48,43,44,38,37,47,56,44,55,52,44,52,51,47,48,45,40,53,51,39,42,53,46,49,43,50,38,36,49,38,44,42,41,47,37,35,43,41,45,37,41,45,46,45,43,44,45,44,49,44,41,41,46,46,45,46,41,48,41,52,41,46,43,40,48,48,37,46,44,45,36,59,49,39,43,43,46,54,45,42,43,47,46,43,40,43,44,54,45,44,48,38,43,36,36,48,39,42,41,46,42,39,41,39,41,43,41,39,43,45,40,46,43,42,45,40,39,36,51,42,40,49,33,47,43,67,44,39,35,41,46,45,44,54,48,46,43,41,40,38,43,39,40,42,39,51,46,41,43,46,39,42,37,40,42,39,39,54,37,50,40,41,40,55,55,48,48,51,42,38,39,49,42,49,41,45,59,45,37,49,47,40,48,49,41,44,42,45,53,41,41,54,39,40,43,46,56,58,56,42,51,45,40,57,49,45,39,42,45,39,33,57,52,43,41,42,43,43,52,42,44,55,45,44,50,42,36,58,47,46,42,38,41,41,39,44,45,41,50,41,52,42,39,48,40,47,36,45,48,38,46,48,46,44,41,36,49,37,42,40,48,40,47,42,38,40,46,41,44,36,40,41,37,49,49,42,49,43,42,42,48,41,49,40,45,41,49,37,42,50,38,48,41,54,39,45,46,46,45,44,41,42,47,42,42,48,42,44,38,54,40,43,39,41,47,47,40,50,43,47,40,43,49,51,34,45,41,55,45,45,48,48,45,41,41,63,43,37,45,43,39,38,55,54,40,48,44,47,41,38,37,39,42,44,48,46,49,50,49,46,39,38,42,52,45,41,38,41,35,41,52,46,37,46,41,51,40,44,47,44,41,46,38,56,40,44,44,44,52,48,40,48,42,57,48,45,45,48,58,42,45,43,36,38,36,43,47,44,42,48,38,59,43,43,41,59,48,47,41,62,39,45,46,40,41,44,55,47,51,45,46,46,42,43,45,42,40,45,55,42,43,59,46,48,43,43,55,46,46,41,56,45,38,48,62,44,36,42,44,41,43,64,51,49,44,58,43,46,41,49,43,49,41,40,50,40,40,52,35,38,53,43,39,41,42,50,45,58,51,48,39,45,40,44,51,47,48,51,36,51,57,38,46,46,54,49,37,52,45,47,37,42,42,44,57,43,37,43,41,39,40,43,49,51,47,41,44,43,44,44,47,40,48,42,44,45,40,42,55,46,48,46,47,49,33,37,52,44,37,36,46,41,58,37,36,44,35,41,38,37,44,48,47,38,50,49,41,50,45,66,46,48,43,43,42,49,38,41,52,44,42,46,46,48,48,61,39,46,43,48,46,47,40,41,44,39,42,41,47,49,43,45,59,41,60,46,53,37,38,45,43,37,51,38,44,49,37,51,57,55,46,56,39,39,48,43,43,52,40,42,45,41,35,45,35,56,44,52,45,41,41,49,40,36,40,43,49,40,39,50,50,40,46,46,41,46,51,35,35,41,39,41,41,44,47,40,38,48,56,36,40,39,47,42,49,40,44,42,50,49,49,43,44,41,52,45,48,43,55,41,48,45,59,46,54,53,48,56,43,43,43,52,37,43,51,37,49,47,52,44,56,41,54,45,43,47,47,37,50,44,41,47,58,38,46,43,52,48,36,50,39,41,45,43,41,42,37,37,37,42,51,47,49,46,37,50,36,48,54,41,44,44,40,44,40,41,46,50,51,40,42,37,36,40,50,49,39,45,47,39,37,50,42,40,44,34,42,51,45,38,37,51,41,55,45,54,42,38,39,41,38,48,36,50,39,46,50,49,49,43,42,46,44,44,46,52,40,50,41,44,43,50,44,46,59,54,45,39,45,34,53,46,34,41,38,36,38,46,61,48,46,41,44,44,45,44,49,36,47,57,40,47,45,43,37,44,49,46,47,42,43,40,41,33,48,37,40,38,35,46,41,42,42,53,49,46,57,38,41,51,46,60,54,50,41,49,41,43,41,40,62,41,38,51,52,61,47,46,51,38,42,50,42,44,38,55,43,37,41,55,42,53,48,44,52,47,42,38,39,42,49,39,41,46,36,52,45,36,59,52,41,37,41,42,39,47,41,43,54,47,45,44,42,41,45,46,43,41,48,47,38,50,46,43,52,43,46,42,38,58,49,42,49,42,57,36,55,39,42,47,43,41,56,42,52,47,48,52,48,41,44,43,38,45
+Policy Iteration,22050,6749,20946,18157,52772,66855,61112,19931,6768,3544,1790,733,570,1707,284,959,128,50,46,37,42,40,38,44,45,41,62,45,45,56,54,50,47,41,46,38,50,42,44,44,40,42,56,34,36,51,37,40,37,47,48,45,38,49,40,47,40,45,39,40,50,39,36,54,38,41,48,43,35,41,44,48,37,49,40,48,55,39,38,50,47,40,40,48,49,38,34,40,47,48,45,43,45,50,41,52,40,42,38,45,41,41,46,48,45,40,43,44,42,43,49,46,45,48,46,55,43,38,44,47,44,45,48,45,51,47,37,42,48,54,48,46,53,37,38,45,47,36,40,47,42,49,41,43,40,46,45,36,37,44,43,45,43,39,46,48,50,51,47,42,48,36,38,40,41,35,44,50,53,55,46,41,39,43,46,42,52,39,43,47,47,53,49,48,41,37,53,42,42,45,52,42,45,54,45,45,34,40,41,42,42,43,50,35,43,41,46,43,39,47,46,41,43,45,41,48,45,42,44,42,40,47,41,44,54,47,42,40,55,33,48,45,42,50,46,40,44,41,40,42,47,41,44,44,35,45,41,53,44,45,58,39,43,39,52,50,40,33,43,53,36,47,47,50,49,46,40,44,43,51,35,45,48,63,40,50,47,43,55,44,44,57,52,42,43,51,42,37,39,43,37,47,41,41,44,47,51,39,41,46,57,49,54,42,47,49,44,46,54,40,54,48,37,42,48,49,41,43,60,41,46,47,42,45,51,47,42,38,39,43,48,37,54,46,38,44,42,36,49,40,46,36,40,43,42,47,42,51,40,45,48,46,45,42,55,50,40,44,48,41,47,45,48,41,45,43,39,38,43,49,38,45,47,41,53,41,48,50,39,40,47,39,41,42,63,38,40,60,47,59,51,41,42,53,45,42,44,46,38,39,49,43,44,52,41,49,41,44,40,44,41,46,48,48,48,48,35,41,51,58,41,52,46,42,46,41,43,39,36,39,38,44,50,51,44,59,36,41,54,33,50,47,43,60,36,39,47,47,44,48,42,50,50,46,46,55,47,48,48,55,41,52,36,55,59,44,47,43,44,47,48,37,49,42,50,47,44,43,44,54,48,49,48,53,50,51,39,39,37,52,44,40,40,41,39,46,51,48,40,47,37,52,58,43,41,42,48,45,42,45,46,38,43,42,37,44,38,45,39,48,45,49,45,43,35,42,37,48,45,46,45,37,44,35,34,43,50,40,49,44,43,43,46,43,42,49,38,46,45,42,60,39,42,35,41,41,39,52,41,50,57,49,52,46,48,40,37,48,46,39,43,52,33,43,47,44,37,42,43,40,38,39,46,41,39,42,59,39,47,42,47,40,39,42,52,49,47,46,61,47,44,42,41,39,49,45,53,46,50,41,39,46,57,39,51,56,43,40,41,36,40,47,48,54,42,47,37,43,57,46,41,47,41,44,41,42,35,44,46,43,50,46,41,36,44,38,47,38,61,46,37,52,53,43,49,60,37,37,43,40,53,35,48,39,44,42,42,38,40,51,44,42,39,45,44,54,45,41,43,46,43,40,43,54,41,36,49,51,41,51,46,58,42,45,45,43,43,37,39,44,41,55,35,47,46,45,36,41,51,40,44,38,57,42,58,45,43,44,56,40,57,41,48,34,47,58,41,42,40,48,51,45,56,37,52,41,40,36,38,36,47,52,48,35,38,46,39,35,41,35,38,40,57,43,46,44,45,45,43,53,38,44,39,53,42,65,46,40,43,53,44,39,41,37,41,53,40,51,42,43,46,38,37,44,51,45,39,47,46,39,35,39,55,55,60,36,43,46,48,49,40,40,42,49,43,43,39,45,37,41,35,54,43,49,40,48,42,37,40,35,45,51,39,51,41,45,38,38,39,50,52,39,38,40,41,42,43,41,41,54,43,37,45,43,37,51,40,49,38,53,44,41,43,53,37,56,41,50,48,44,45,35,44,39,54,43,37,36,43,47,45,51,43,55,40,43,44,39,36,54,38,49,41,40,53,48,46,48,48,49,44,40,43,43,49,43,51,45,45,49,52,57,76,48,42,46,40,44,52,54,50,46,44,38,42,47,48,39,46,51,46,43,36,54,43,51,39,59,36,38,46,51,50,47,47,45,44,44,44,49,51,51,48,42,46,55,44,46,41,45,38,51,53,51,47,41,36,44,44,39,46,49,35,44,46,41,37,51,47,47,36,40,51,48,48,50,39,44,50,46,42,42,48,52,39,38,37,37,47,41,39,38,49,43,49,44,45,39,46,51
+Q Learning,1384,718,422,339,1658,553,378,798,302,116,358,750,126,566,825,327,112,359,173,201,192,313,182,293,88,134,98,256,87,254,1066,42,94,183,81,146,192,118,169,488,308,242,118,118,110,265,272,94,200,186,268,585,89,189,55,100,100,133,144,186,72,80,57,71,156,63,68,156,104,145,112,180,647,100,125,107,114,147,69,193,194,160,123,120,101,67,174,57,96,91,94,308,353,208,99,106,65,108,80,98,110,90,281,106,129,202,136,64,138,59,322,112,140,46,165,103,79,58,183,87,305,201,75,61,167,60,120,228,115,86,74,162,212,84,80,176,81,67,68,110,54,110,47,112,121,181,103,87,460,180,272,170,135,84,134,95,125,62,179,107,127,157,66,48,97,79,165,200,94,121,188,65,89,359,119,171,115,192,75,93,119,247,123,139,56,107,65,115,77,105,93,129,77,115,193,73,68,69,348,157,194,134,134,131,265,99,89,238,77,74,82,109,196,69,90,202,190,100,64,269,105,93,194,119,74,84,64,252,100,85,102,90,228,168,130,84,104,51,133,124,75,56,278,113,87,126,196,161,146,92,182,88,86,243,171,83,132,110,168,150,121,177,77,120,66,99,85,114,68,90,89,143,125,62,87,90,75,70,114,188,111,82,87,149,140,216,98,85,138,105,110,123,53,153,86,52,101,89,128,123,185,315,196,87,150,54,76,72,260,102,149,280,113,108,96,198,71,104,72,114,94,91,121,100,142,101,215,64,125,120,134,49,145,61,135,112,102,107,185,163,67,125,103,82,286,99,113,345,303,224,181,156,141,114,100,143,85,122,197,71,110,104,62,140,109,172,144,180,83,212,75,146,61,153,125,153,56,153,85,77,112,91,137,88,43,116,50,114,137,193,118,91,129,67,74,81,89,77,109,60,117,176,47,81,112,101,82,95,128,91,104,76,71,175,83,70,110,119,137,139,107,58,155,127,80,86,81,108,224,74,592,188,59,117,253,118,253,98,94,106,253,90,124,272,140,79,192,86,77,97,71,174,132,112,51,69,97,342,141,111,97,79,69,367,60,140,69,72,81,91,66,75,225,88,93,104,115,78,118,101,100,132,91,125,313,91,139,67,74,104,128,125,281,135,73,86,122,189,85,197,116,197,335,76,72,87,114,48,105,75,106,87,126,147,95,95,69,173,66,206,141,77,162,147,106,242,117,139,344,57,191,93,63,69,74,116,75,180,268,111,115,102,98,131,84,69,137,193,55,113,109,83,54,154,128,158,90,92,81,315,87,119,124,140,89,117,86,89,187,66,211,92,95,74,96,70,166,502,138,84,61,49,161,207,161,51,126,89,69,83,79,77,59,73,287,130,45,114,63,83,110,177,77,343,62,119,70,128,133,154,66,57,181,135,56,138,584,69,73,278,120,68,89,85,74,95,51,62,83,124,109,75,658,73,70,86,91,119,116,202,101,155,107,91,143,103,150,59,53,123,198,140,61,188,57,130,83,63,305,94,81,69,104,98,79,105,100,85,62,195,79,132,101,152,306,45,202,106,205,111,118,66,83,57,95,128,89,66,160,191,150,61,76,113,96,127,74,160,128,74,86,401,74,77,66,225,90,121,51,168,198,64,89,393,106,215,90,78,151,140,99,82,222,120,109,113,130,111,95,47,94,126,127,62,155,93,291,150,338,128,87,85,109,162,124,224,70,106,66,115,89,248,120,110,113,60,119,68,119,226,96,134,211,102,131,176,95,105,218,182,123,92,194,79,65,184,58,309,107,110,193,77,147,196,148,129,68,263,68,78,119,130,152,119,266,158,116,219,148,103,108,245,83,175,80,136,103,102,70,121,127,84,107,153,102,105,200,112,165,116,122,51,122,67,92,128,160,106,100,59,184,308,228,113,82,182,170,159,120,75,339,85,75,57,296,149,150,164,122,223,118,163,110,133,141,53,281,90,119,87,49,125,96,71,57,106,111,160,114,111,144,71,166,78,60,80,103,135,82,268,60,94,88,123,86,183,70,82,124,119,142,164,78,259,137,360,123,155,104,55,77,72,76,177,124,124,152,90,62,45,86,56,115,206,61,68,147,150,65,353,79,55,118,182,76,186,82,49,72,110,107,323,159,67,176,100,67,107,340,69,63,119,107,83,80,154,65,95,148,161,113,145,86,286,129,67,99,184,413,72,131,75,109,107,113,119,74,59,114,116,112,101,158,249,65,290,82,53,144,67,108,140,92,251,99,211,64,107,73,76,90,77,79,67,198,226,52,122,189,202
+
+The data below shows the number of milliseconds the algorithm required to generate 
+the optimal policy given the number of iterations the algorithm was run.
+Iterations,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,800,801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,886,887,888,889,890,891,892,893,894,895,896,897,898,899,900,901,902,903,904,905,906,907,908,909,910,911,912,913,914,915,916,917,918,919,920,921,922,923,924,925,926,927,928,929,930,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,960,961,962,963,964,965,966,967,968,969,970,971,972,973,974,975,976,977,978,979,980,981,982,983,984,985,986,987,988,989,990,991,992,993,994,995,996,997,998,999,1000
+Value Iteration,53,11,14,13,14,26,12,15,16,24,25,22,24,38,39,34,42,47,50,51,46,31,33,43,38,39,40,41,47,46,48,47,49,52,59,105,87,85,58,57,57,60,66,69,61,67,67,66,66,69,72,74,110,125,130,137,78,81,78,79,111,91,87,91,92,91,92,94,93,100,99,100,110,100,99,108,100,105,107,109,113,109,111,114,118,124,122,117,119,124,123,125,128,158,147,132,131,135,128,138,139,143,137,143,142,145,142,198,153,146,149,152,150,157,159,211,155,169,164,161,166,165,166,163,169,173,175,174,177,176,175,183,184,189,183,184,192,194,189,196,199,208,206,199,192,197,196,206,194,201,202,208,219,211,217,219,236,213,227,235,231,230,246,230,235,233,229,239,228,255,227,234,252,245,244,252,257,253,248,269,249,262,255,267,263,258,259,250,260,264,260,273,271,270,264,263,276,271,289,299,302,298,301,305,301,331,305,306,313,313,411,324,319,317,317,319,318,339,340,326,329,331,350,337,336,336,331,336,339,343,342,338,343,346,349,351,353,347,393,341,348,373,354,355,363,358,360,359,360,367,375,366,368,377,371,378,374,376,379,379,383,381,387,385,385,385,391,388,391,393,394,399,414,403,400,402,405,407,409,441,394,414,413,413,414,420,416,418,423,421,427,441,419,428,427,445,469,426,431,436,436,463,447,441,450,448,448,445,464,443,455,494,439,459,460,460,463,459,461,465,466,470,470,476,468,472,470,474,494,485,483,483,506,483,492,486,490,487,494,498,502,495,530,497,511,497,504,504,505,506,538,515,520,517,516,516,518,519,520,524,678,687,598,531,607,549,538,532,545,543,537,541,535,544,540,545,542,551,562,554,555,557,558,554,566,566,567,565,563,563,584,562,583,561,584,564,577,608,582,574,582,589,584,583,586,591,585,596,594,588,596,599,602,599,600,612,604,608,607,655,669,630,635,611,612,630,621,619,625,628,625,651,625,630,643,629,641,637,660,658,647,642,667,651,650,665,659,646,654,655,648,657,677,644,673,663,666,689,657,670,675,673,677,676,675,690,675,681,708,689,699,681,694,692,684,687,696,693,695,698,710,693,709,717,694,713,702,724,700,721,734,699,716,714,715,714,722,725,724,783,730,726,731,735,735,734,732,734,774,735,749,747,759,738,752,749,747,761,770,752,764,753,755,778,882,776,761,763,770,776,774,780,774,798,792,778,815,763,794,776,800,783,784,792,787,786,819,781,796,808,796,796,821,824,803,803,818,809,811,810,840,817,923,828,819,820,854,838,813,830,849,837,865,827,850,829,857,937,839,854,895,831,860,852,849,861,848,855,862,852,857,861,864,875,873,874,869,898,921,924,992,933,907,890,884,910,932,890,932,925,897,931,908,909,941,939,970,944,980,937,924,906,906,931,938,1007,970,935,938,926,940,970,921,936,971,938,951,994,980,982,967,970,980,966,964,974,976,972,965,969,964,973,979,991,978,977,978,978,988,1003,990,982,984,989,986,1015,986,994,991,1004,1001,1000,1001,1013,1015,1010,1010,1023,1023,1022,1013,1020,1010,1044,1012,1025,1030,1024,1035,1068,1035,1031,1039,1040,1032,1040,1038,1041,1038,1048,1039,1049,1051,1051,1054,1069,1056,1056,1065,1056,1076,1053,1064,1086,1078,1065,1073,1076,1074,1067,1076,1092,1078,1081,1080,1076,1076,1099,1083,1084,1096,1097,1091,1088,1095,1091,1109,1089,1101,1100,1110,1108,1103,1108,1100,1115,1109,1114,1171,1117,1134,1127,1125,1121,1138,1122,1127,1162,1140,1145,1128,1143,1135,1142,1178,1144,1146,1147,1151,1153,1143,1142,1157,1151,1164,1170,1160,1163,1163,1167,1165,1200,1152,1189,1186,1189,1175,1176,1175,1186,1177,1175,1181,1178,1191,1183,1189,1229,1170,1192,1194,1194,1231,1202,1205,1198,1202,1204,1197,1199,1207,1201,1210,1210,1240,1216,1220,1227,1219,1250,1223,1222,1238,1223,1253,1259,1252,1237,1256,1235,1249,1263,1247,1246,1244,1253,1255,1254,1247,1253,1268,1251,1251,1265,1261,1258,1348,1291,1272,1266,1279,1284,1280,1308,1287,1303,1294,1275,1284,1274,1292,1277,1305,1305,1290,1296,1294,1290,1288,1297,1311,1347,1337,1362,1313,1307,1293,1316,1307,1315,1314,1312,1305,1318,1305,1343,1351,1325,1319,1321,1316,1340,1321,1325,1323,1335,1321,1357,1349,1334,1330,1359,1335,1344,1352,1345,1346,1367,1344,1359,1360,1351,1353,1369,1363,1371,1371,1361,1365,1365,1367,1373,1367,1368,1364,1373,1380,1398,1381,1385,1372,1387,1383,1388,1390,1382,1392,1388,1395,1404,1394,1409,1413,1414,1407,1414,1408,1409,1402,1415,1409,1431,1406,1420,1422,1416,1423,1425,1429,1451,1454,1433,1434,1435,1450,1442,1442,1452,1443,1475,1449,1439,1447,1451,1462,1453,1459,1450,1454,1452,1457,1460,1465,1457,1469,1463,1478,1479,1493,1448,1463,1480,1476,1474,1482,1484,1478,1486,1484,1484
+Policy Iteration,10,19,12,14,16,21,41,27,28,31,34,38,39,42,45,48,63,54,57,57,64,75,68,69,72,95,81,98,85,99,92,94,114,105,106,117,108,111,127,113,119,131,126,126,144,132,133,148,141,155,148,148,161,152,171,162,161,174,168,178,174,175,180,180,196,186,192,195,196,209,209,220,235,213,211,215,216,230,222,230,234,242,233,239,240,251,244,254,252,261,256,262,263,271,268,272,274,284,278,282,293,287,294,296,299,298,302,304,308,323,322,321,317,321,330,328,333,330,339,344,341,349,347,350,367,358,355,366,362,366,371,373,381,378,383,384,387,388,395,391,395,405,401,409,407,407,421,413,418,418,426,423,430,436,436,437,440,445,451,450,451,453,457,459,466,469,498,475,479,476,482,484,508,480,494,495,501,499,504,509,510,518,533,511,522,521,526,530,551,533,536,536,542,549,548,550,573,560,557,565,570,570,582,578,582,572,579,586,582,587,591,596,599,600,607,610,610,619,613,636,622,622,628,631,635,632,641,640,646,650,650,652,653,658,660,662,663,665,668,669,672,672,676,695,752,696,693,697,698,698,706,706,703,713,719,720,734,739,768,724,735,727,722,728,759,730,740,740,736,762,748,767,775,748,761,780,760,765,765,769,778,776,768,784,802,787,786,794,800,794,802,817,792,810,834,805,822,818,832,823,835,835,830,845,844,872,845,849,852,859,848,860,862,855,878,868,867,869,877,879,882,895,885,897,893,897,913,901,904,931,914,911,931,915,925,916,943,926,928,935,950,943,954,962,951,965,953,960,954,961,964,967,967,977,982,998,982,980,980,989,992,991,995,996,1005,1004,1002,1014,1007,1013,1016,1029,1023,1035,1051,1034,1032,1038,1050,1048,1054,1049,1054,1064,1051,1061,1082,1079,1066,1085,1075,1071,1082,1078,1087,1085,1094,1219,1206,1149,1180,1151,1129,1171,1161,1127,1125,1126,1130,1137,1138,1134,1135,1138,1154,1142,1151,1158,1153,1161,1178,1166,1167,1158,1157,1167,1187,1184,1177,1196,1182,1187,1209,1187,1238,1209,1225,1204,1200,1203,1228,1209,1214,1216,1215,1240,1228,1230,1225,1233,1237,1242,1251,1246,1250,1247,1251,1254,1253,1259,1264,1259,1273,1274,1265,1268,1300,1277,1290,1300,1293,1295,1295,1296,1296,1297,1315,1323,1339,1318,1323,1314,1327,1348,1326,1327,1336,1330,1336,1350,1365,1466,1397,1354,1358,1364,1369,1366,1361,1369,1407,1381,1383,1399,1382,1394,1391,1399,1402,1393,1398,1409,1409,1410,1407,1413,1409,1409,1416,1427,1420,1432,1433,1445,1431,1510,1447,1436,1446,1446,1446,1451,1485,1466,1462,1476,1475,1470,1484,1487,1475,1504,1500,1480,1524,1525,1496,1519,1513,1498,1508,1506,1521,1543,1518,1533,1526,1528,1533,1535,1545,1533,1548,1543,1546,1565,1544,1590,1555,1568,1557,1563,1573,1572,1598,1581,1583,1575,1605,1592,1587,1588,1606,1621,1590,1635,1602,1606,1630,1617,1615,1619,1627,1630,1633,1641,1626,1644,1642,1652,1641,1647,1649,1647,1657,1677,1657,1670,1673,1686,1671,1690,1679,1691,1687,1687,1694,1694,1696,1697,1706,1710,1701,1742,1727,1707,1709,1725,1747,1724,1731,1742,1745,1740,1735,1761,1737,1737,1749,1752,1763,1754,1769,1759,1767,1776,1775,1793,1812,1792,1796,1794,1787,1798,1810,1801,1826,1812,1806,1846,1838,1810,1815,1824,1824,1825,1827,1824,1827,1842,1833,1834,1840,1841,1853,1842,1848,1862,1850,1866,1851,1855,1864,2004,1865,1873,1871,1882,1894,1913,1875,1893,1892,1930,1932,1894,1912,1910,1911,1914,1917,1916,1923,2035,1931,1940,1954,1915,1942,1945,1941,1963,1949,1949,1959,1976,1967,1966,1980,1978,1988,1984,1982,2008,1990,2024,2022,2002,1990,2004,2007,2007,2000,2011,2016,2039,2027,2022,2021,2020,2024,2033,2033,2027,2038,2036,2045,2043,2067,2061,2062,2059,2069,2064,2063,2064,2092,2116,2071,2105,2078,2074,2081,2098,2091,2098,2111,2109,2098,2104,2119,2136,2129,2114,2122,2114,2122,2128,2118,2128,2148,2141,2137,2140,2140,2157,2179,2169,2152,2157,2164,2145,2161,2164,2168,2168,2189,2179,2175,2186,2192,2201,2197,2197,2208,2231,2231,2208,2214,2242,2249,2230,2216,2248,2245,2256,2237,2252,2256,2239,2247,2238,2261,2247,2269,2262,2255,2265,2273,2268,2267,2469,2530,2285,2281,2288,2297,2302,2303,2312,2330,2332,2373,2317,2418,2330,2321,2342,2327,2385,2341,2334,2348,2349,2344,2355,2361,2350,2351,2355,2351,2372,2378,2368,2365,2370,2372,2383,2382,2381,2450,2379,2384,2404,2393,2400,2403,2406,2422,2435,2417,2402,2413,2427,2415,2447,2437,2442,2439,2433,2435,2480,2431,2445,2444,2457,2499,2471,2452,2458,2470,2474,2468,2494,2486,2479,2490,2515,2490,2491,2494,2501,2493,2514,2512,2502,2500,2536,2500,2514,2543,2553,2535,2516,2531,2530,2537,2556,2539,2560,2555,2554,2555,2557,2553,2567,2568,2565,2566,2581,2572,2583,2589,2574,2584,2592,2629,2620,2579,2582,2606,2593,2592,2613,2612,2619,2609,2607,2621,2635,2631,2641,2630,2638,2642,2748,2641,2644,2663,2795,2701,2684,2648,2667,2676,2671,2680,2700,2692,2681,2697,2701,2715,2688,2693,2719,2694,2713,2695,2712,2716,2708,2716,2761,2745,2734,2732,2732,2725,2755
+Q Learning,21,26,10,30,28,39,28,31,39,30,37,40,35,41,34,33,36,42,42,32,42,37,33,38,36,32,34,38,45,39,46,44,37,40,45,43,40,46,38,50,50,48,56,45,50,44,43,53,51,50,47,55,45,49,46,72,51,59,47,48,55,46,61,45,62,54,55,73,55,54,63,58,60,51,54,54,59,72,65,59,54,65,59,84,57,60,69,64,70,59,64,61,63,61,59,80,82,60,69,70,62,56,67,82,64,69,81,63,61,62,82,73,76,89,66,65,78,66,70,81,72,61,74,67,65,79,74,86,86,69,92,76,84,82,85,79,85,71,80,83,74,80,69,70,79,82,92,84,86,89,77,90,88,94,95,78,85,75,90,97,90,85,90,86,85,80,87,87,92,85,86,83,87,100,93,93,84,109,90,91,90,90,90,101,86,89,83,86,97,82,98,105,103,112,105,99,92,93,105,104,99,97,108,102,81,109,96,97,104,111,94,93,85,96,97,102,116,118,111,110,100,106,118,101,101,101,114,109,99,121,102,117,107,105,119,117,116,108,119,116,115,107,112,124,113,107,122,123,113,115,116,103,116,113,98,113,110,109,112,119,116,118,114,117,137,102,110,118,106,120,133,116,124,120,117,136,126,127,156,114,115,122,107,130,129,123,120,145,115,134,130,123,132,132,128,123,116,122,131,132,135,137,125,123,127,136,129,127,145,135,122,114,139,135,126,133,144,137,133,129,140,139,144,152,148,128,133,154,152,147,148,134,155,141,134,164,147,153,143,127,149,134,135,173,168,124,142,148,143,156,149,152,154,146,138,158,142,141,149,156,176,141,139,144,148,163,152,162,150,159,149,163,151,175,157,161,148,152,155,160,163,160,144,136,147,158,143,155,155,152,169,153,156,152,153,156,159,173,170,164,152,155,148,167,144,162,189,167,164,176,168,145,156,164,178,170,158,152,155,173,174,156,166,167,163,160,164,165,163,173,193,174,163,162,162,182,158,183,203,164,178,188,175,178,178,143,176,181,181,175,177,186,175,184,191,175,190,179,164,171,166,181,183,173,180,189,159,171,181,184,174,176,207,174,169,181,199,200,180,172,172,180,176,197,185,164,205,178,184,173,197,182,188,194,207,180,175,183,176,189,178,204,192,204,189,189,205,196,204,196,192,189,187,208,185,205,230,175,178,192,206,204,186,202,187,206,182,192,203,191,200,197,219,187,196,207,194,189,208,204,205,204,198,205,191,226,203,186,203,209,208,213,199,195,226,206,214,238,218,219,199,218,208,221,201,210,234,212,222,204,243,201,237,196,216,216,210,224,218,223,220,207,236,225,203,225,226,236,208,216,227,208,212,218,233,218,228,215,210,230,226,222,207,232,243,238,236,246,199,241,223,217,221,238,217,255,263,259,214,224,229,244,235,213,237,245,216,217,217,232,234,221,220,234,233,212,231,223,239,227,244,231,223,205,248,255,222,233,236,255,242,228,251,244,240,218,229,233,245,233,235,237,239,228,263,218,238,255,247,230,234,233,245,250,230,220,243,243,260,236,273,244,264,231,235,268,242,259,238,270,241,223,253,219,236,273,257,249,243,247,246,239,255,239,256,282,245,267,252,244,243,246,276,244,242,232,244,260,239,231,245,281,269,272,285,250,262,240,277,273,261,257,278,268,251,240,251,259,280,257,250,264,258,272,276,250,252,257,275,236,280,277,281,271,291,237,269,261,262,258,264,269,286,276,270,279,272,277,290,268,269,270,268,262,298,279,267,299,279,273,276,295,265,290,309,269,273,258,281,271,274,285,277,288,291,288,282,315,293,274,300,298,278,301,290,289,280,285,297,283,282,286,276,282,295,275,287,299,305,310,283,290,281,314,287,291,305,298,278,279,318,296,295,305,291,281,291,288,289,293,306,290,306,289,296,312,282,296,304,294,300,295,303,306,316,326,319,283,323,288,302,291,292,312,303,309,290,300,290,314,316,312,313,303,307,306,320,322,318,311,294,281,313,309,293,320,298,306,300,305,311,279,322,324,278,312,314,341,318,320,295,314,298,313,301,297,320,320,306,291,319,310,325,331,321,321,301,332,318,298,337,321,331,324,337,355,300,309,312,342,319,326,320,298,335,337,321,315,310,312,300,320,321,325,316,303,333,306,288,322,323,321,313,356,323,335,357,374,316,350,326,359,330,334,317,328,330,353,331,342,325,332,349,363,329,349,336,354,314,345,299,345,345,355,339,343,333,360,313,332,386,349,297,356,344,351,318,379,323,326
+
+The data below shows the total reward gained for 
+the optimal policy given the number of iterations the algorithm was run.
+Iterations,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,800,801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,886,887,888,889,890,891,892,893,894,895,896,897,898,899,900,901,902,903,904,905,906,907,908,909,910,911,912,913,914,915,916,917,918,919,920,921,922,923,924,925,926,927,928,929,930,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,960,961,962,963,964,965,966,967,968,969,970,971,972,973,974,975,976,977,978,979,980,981,982,983,984,985,986,987,988,989,990,991,992,993,994,995,996,997,998,999,1000
+Value Iteration Rewards,-6753.0,-7490.0,-3639.0,-11450.0,-5369.0,-5197.0,-2495.0,-305.0,-1445.0,-588.0,-420.0,-411.0,-543.0,-114.0,58.0,46.0,64.0,47.0,59.0,52.0,50.0,61.0,51.0,57.0,60.0,42.0,54.0,59.0,58.0,64.0,65.0,55.0,46.0,58.0,47.0,50.0,58.0,50.0,51.0,55.0,54.0,57.0,62.0,49.0,51.0,63.0,60.0,49.0,56.0,53.0,59.0,52.0,64.0,66.0,53.0,64.0,58.0,60.0,61.0,55.0,65.0,67.0,59.0,61.0,57.0,65.0,61.0,57.0,56.0,57.0,59.0,58.0,57.0,58.0,53.0,58.0,61.0,61.0,56.0,56.0,57.0,56.0,61.0,54.0,61.0,50.0,61.0,56.0,59.0,62.0,54.0,54.0,65.0,56.0,58.0,57.0,66.0,43.0,53.0,63.0,59.0,59.0,56.0,48.0,57.0,60.0,59.0,55.0,56.0,59.0,62.0,59.0,58.0,48.0,57.0,58.0,54.0,64.0,59.0,66.0,66.0,54.0,63.0,60.0,61.0,56.0,60.0,63.0,61.0,63.0,61.0,59.0,61.0,63.0,59.0,57.0,62.0,56.0,59.0,60.0,57.0,62.0,63.0,66.0,51.0,60.0,62.0,53.0,69.0,55.0,59.0,35.0,58.0,63.0,67.0,61.0,56.0,57.0,58.0,48.0,54.0,56.0,59.0,61.0,62.0,64.0,59.0,63.0,62.0,60.0,63.0,51.0,56.0,61.0,59.0,56.0,63.0,60.0,65.0,62.0,60.0,63.0,63.0,48.0,65.0,52.0,62.0,61.0,62.0,47.0,47.0,54.0,54.0,51.0,60.0,64.0,63.0,53.0,60.0,53.0,61.0,57.0,43.0,57.0,65.0,53.0,55.0,62.0,54.0,53.0,61.0,58.0,60.0,57.0,49.0,61.0,61.0,48.0,63.0,62.0,59.0,56.0,46.0,44.0,46.0,60.0,51.0,57.0,62.0,45.0,53.0,57.0,63.0,60.0,57.0,63.0,69.0,45.0,50.0,59.0,61.0,60.0,59.0,59.0,50.0,60.0,58.0,47.0,57.0,58.0,52.0,60.0,66.0,44.0,55.0,56.0,60.0,64.0,61.0,61.0,63.0,58.0,57.0,61.0,52.0,61.0,50.0,60.0,63.0,54.0,62.0,55.0,66.0,57.0,54.0,64.0,56.0,54.0,56.0,58.0,61.0,66.0,53.0,65.0,60.0,62.0,54.0,62.0,55.0,60.0,64.0,62.0,56.0,61.0,58.0,66.0,62.0,61.0,65.0,53.0,53.0,60.0,53.0,59.0,60.0,60.0,54.0,61.0,53.0,62.0,57.0,61.0,53.0,65.0,60.0,52.0,64.0,54.0,61.0,48.0,63.0,57.0,56.0,56.0,57.0,58.0,61.0,60.0,55.0,60.0,60.0,54.0,60.0,58.0,64.0,48.0,62.0,59.0,63.0,61.0,55.0,55.0,62.0,52.0,59.0,55.0,62.0,59.0,53.0,51.0,68.0,57.0,61.0,47.0,57.0,57.0,54.0,54.0,57.0,61.0,61.0,39.0,59.0,65.0,57.0,59.0,63.0,64.0,47.0,48.0,62.0,54.0,58.0,55.0,61.0,64.0,65.0,63.0,60.0,58.0,54.0,56.0,53.0,52.0,53.0,56.0,63.0,64.0,60.0,50.0,57.0,61.0,64.0,61.0,67.0,61.0,50.0,56.0,65.0,56.0,61.0,51.0,62.0,58.0,55.0,58.0,61.0,56.0,64.0,46.0,62.0,58.0,58.0,58.0,50.0,54.0,62.0,54.0,60.0,45.0,54.0,57.0,57.0,54.0,44.0,60.0,57.0,59.0,66.0,64.0,66.0,59.0,55.0,58.0,60.0,54.0,64.0,43.0,59.0,59.0,61.0,43.0,54.0,55.0,61.0,40.0,63.0,57.0,56.0,62.0,61.0,58.0,47.0,55.0,51.0,57.0,56.0,56.0,60.0,59.0,57.0,60.0,62.0,57.0,47.0,60.0,59.0,43.0,56.0,54.0,59.0,59.0,47.0,56.0,56.0,61.0,46.0,57.0,64.0,54.0,40.0,58.0,66.0,60.0,58.0,61.0,59.0,38.0,51.0,53.0,58.0,44.0,59.0,56.0,61.0,53.0,59.0,53.0,61.0,62.0,52.0,62.0,62.0,50.0,67.0,64.0,49.0,59.0,63.0,61.0,60.0,52.0,57.0,44.0,51.0,54.0,63.0,57.0,62.0,58.0,51.0,55.0,54.0,51.0,66.0,51.0,45.0,64.0,56.0,56.0,48.0,53.0,65.0,50.0,57.0,55.0,65.0,60.0,60.0,58.0,45.0,59.0,65.0,59.0,61.0,63.0,62.0,59.0,53.0,51.0,55.0,61.0,58.0,59.0,58.0,58.0,55.0,62.0,54.0,60.0,58.0,57.0,62.0,60.0,47.0,56.0,54.0,56.0,55.0,53.0,69.0,65.0,50.0,58.0,65.0,66.0,56.0,61.0,44.0,65.0,66.0,58.0,67.0,61.0,64.0,65.0,58.0,54.0,55.0,64.0,52.0,53.0,61.0,52.0,57.0,36.0,56.0,54.0,59.0,59.0,60.0,53.0,64.0,61.0,50.0,58.0,60.0,56.0,56.0,54.0,54.0,41.0,63.0,56.0,59.0,54.0,56.0,55.0,62.0,61.0,58.0,63.0,60.0,61.0,55.0,53.0,59.0,57.0,43.0,61.0,42.0,56.0,49.0,65.0,64.0,57.0,59.0,65.0,51.0,64.0,58.0,53.0,65.0,51.0,45.0,47.0,56.0,46.0,63.0,63.0,54.0,59.0,59.0,50.0,62.0,60.0,57.0,61.0,67.0,57.0,67.0,46.0,58.0,50.0,57.0,61.0,61.0,53.0,62.0,66.0,62.0,59.0,53.0,62.0,63.0,52.0,52.0,62.0,56.0,56.0,61.0,56.0,51.0,67.0,67.0,61.0,63.0,61.0,61.0,58.0,55.0,62.0,64.0,54.0,46.0,66.0,62.0,63.0,55.0,60.0,53.0,62.0,58.0,60.0,52.0,53.0,53.0,59.0,58.0,61.0,50.0,57.0,54.0,59.0,47.0,61.0,54.0,57.0,43.0,56.0,48.0,49.0,54.0,46.0,59.0,59.0,59.0,50.0,65.0,59.0,51.0,65.0,53.0,55.0,50.0,58.0,46.0,61.0,48.0,57.0,59.0,55.0,55.0,65.0,52.0,58.0,61.0,55.0,44.0,64.0,56.0,59.0,50.0,54.0,66.0,52.0,63.0,61.0,57.0,59.0,61.0,60.0,65.0,65.0,65.0,60.0,51.0,55.0,53.0,56.0,65.0,52.0,66.0,54.0,48.0,61.0,58.0,58.0,62.0,58.0,62.0,61.0,56.0,52.0,51.0,62.0,60.0,65.0,66.0,62.0,52.0,53.0,63.0,57.0,55.0,63.0,65.0,52.0,60.0,62.0,58.0,68.0,60.0,51.0,57.0,64.0,65.0,51.0,61.0,47.0,57.0,48.0,60.0,64.0,63.0,61.0,64.0,54.0,66.0,52.0,63.0,56.0,52.0,53.0,53.0,59.0,60.0,56.0,58.0,58.0,56.0,50.0,62.0,52.0,61.0,58.0,59.0,52.0,58.0,56.0,43.0,48.0,57.0,63.0,57.0,68.0,49.0,56.0,68.0,61.0,64.0,66.0,64.0,56.0,41.0,54.0,56.0,61.0,58.0,58.0,57.0,58.0,53.0,66.0,55.0,45.0,62.0,55.0,57.0,59.0,65.0,58.0,53.0,56.0,55.0,60.0,59.0,62.0,61.0,69.0,54.0,65.0,62.0,64.0,67.0,56.0,61.0,60.0,60.0,49.0,53.0,56.0,45.0,64.0,61.0,51.0,56.0,42.0,48.0,52.0,61.0,53.0,61.0,59.0,61.0,62.0,40.0,61.0,64.0,51.0,50.0,41.0,55.0,56.0,51.0,64.0,60.0,52.0,60.0,58.0,64.0,47.0,59.0,65.0,61.0,47.0,60.0,49.0,54.0,58.0,50.0,55.0,60.0,64.0,63.0,60.0,53.0,63.0,61.0,56.0,66.0,50.0,57.0,66.0,43.0,50.0,61.0,65.0,61.0,60.0,63.0,55.0,61.0,59.0,48.0,55.0,57.0,58.0,60.0,61.0,57.0,56.0,59.0,61.0,54.0,55.0,64.0,52.0,56.0,59.0,50.0,59.0,56.0,60.0,64.0,44.0,53.0,60.0,53.0,60.0,45.0,66.0,47.0,63.0,60.0,55.0,59.0,61.0,46.0,60.0,50.0,55.0,54.0,50.0,54.0,61.0,58.0,59.0,64.0,57.0
+Policy Iteration Rewards,-21948.0,-6647.0,-20844.0,-18055.0,-52670.0,-66753.0,-61010.0,-19829.0,-6666.0,-3442.0,-1688.0,-631.0,-468.0,-1605.0,-182.0,-857.0,-26.0,52.0,56.0,65.0,60.0,62.0,64.0,58.0,57.0,61.0,40.0,57.0,57.0,46.0,48.0,52.0,55.0,61.0,56.0,64.0,52.0,60.0,58.0,58.0,62.0,60.0,46.0,68.0,66.0,51.0,65.0,62.0,65.0,55.0,54.0,57.0,64.0,53.0,62.0,55.0,62.0,57.0,63.0,62.0,52.0,63.0,66.0,48.0,64.0,61.0,54.0,59.0,67.0,61.0,58.0,54.0,65.0,53.0,62.0,54.0,47.0,63.0,64.0,52.0,55.0,62.0,62.0,54.0,53.0,64.0,68.0,62.0,55.0,54.0,57.0,59.0,57.0,52.0,61.0,50.0,62.0,60.0,64.0,57.0,61.0,61.0,56.0,54.0,57.0,62.0,59.0,58.0,60.0,59.0,53.0,56.0,57.0,54.0,56.0,47.0,59.0,64.0,58.0,55.0,58.0,57.0,54.0,57.0,51.0,55.0,65.0,60.0,54.0,48.0,54.0,56.0,49.0,65.0,64.0,57.0,55.0,66.0,62.0,55.0,60.0,53.0,61.0,59.0,62.0,56.0,57.0,66.0,65.0,58.0,59.0,57.0,59.0,63.0,56.0,54.0,52.0,51.0,55.0,60.0,54.0,66.0,64.0,62.0,61.0,67.0,58.0,52.0,49.0,47.0,56.0,61.0,63.0,59.0,56.0,60.0,50.0,63.0,59.0,55.0,55.0,49.0,53.0,54.0,61.0,65.0,49.0,60.0,60.0,57.0,50.0,60.0,57.0,48.0,57.0,57.0,68.0,62.0,61.0,60.0,60.0,59.0,52.0,67.0,59.0,61.0,56.0,59.0,63.0,55.0,56.0,61.0,59.0,57.0,61.0,54.0,57.0,60.0,58.0,60.0,62.0,55.0,61.0,58.0,48.0,55.0,60.0,62.0,47.0,69.0,54.0,57.0,60.0,52.0,56.0,62.0,58.0,61.0,62.0,60.0,55.0,61.0,58.0,58.0,67.0,57.0,61.0,49.0,58.0,57.0,44.0,63.0,59.0,63.0,50.0,52.0,62.0,69.0,59.0,49.0,66.0,55.0,55.0,52.0,53.0,56.0,62.0,58.0,59.0,51.0,67.0,57.0,54.0,39.0,62.0,52.0,55.0,59.0,47.0,58.0,58.0,45.0,50.0,60.0,59.0,51.0,60.0,65.0,63.0,59.0,65.0,55.0,61.0,61.0,58.0,55.0,51.0,63.0,61.0,56.0,45.0,53.0,48.0,60.0,55.0,53.0,58.0,56.0,48.0,62.0,48.0,54.0,65.0,60.0,54.0,53.0,61.0,59.0,42.0,61.0,56.0,55.0,60.0,57.0,51.0,55.0,60.0,64.0,63.0,59.0,54.0,65.0,48.0,56.0,64.0,58.0,60.0,66.0,53.0,62.0,56.0,66.0,62.0,59.0,60.0,55.0,60.0,51.0,62.0,57.0,54.0,56.0,57.0,60.0,47.0,52.0,62.0,58.0,54.0,61.0,55.0,57.0,54.0,61.0,57.0,59.0,63.0,64.0,59.0,53.0,64.0,57.0,55.0,61.0,49.0,61.0,54.0,52.0,63.0,62.0,55.0,63.0,61.0,60.0,39.0,64.0,62.0,42.0,55.0,43.0,51.0,61.0,60.0,49.0,57.0,60.0,58.0,56.0,64.0,63.0,53.0,59.0,58.0,50.0,61.0,53.0,61.0,58.0,62.0,58.0,61.0,56.0,54.0,54.0,54.0,54.0,67.0,61.0,51.0,44.0,61.0,50.0,56.0,60.0,56.0,61.0,59.0,63.0,66.0,63.0,64.0,58.0,52.0,51.0,58.0,43.0,66.0,61.0,48.0,69.0,52.0,55.0,59.0,42.0,66.0,63.0,55.0,55.0,58.0,54.0,60.0,52.0,52.0,56.0,56.0,47.0,55.0,54.0,54.0,47.0,61.0,50.0,66.0,47.0,43.0,58.0,55.0,59.0,58.0,55.0,54.0,65.0,53.0,60.0,52.0,55.0,58.0,59.0,58.0,48.0,54.0,53.0,54.0,49.0,52.0,51.0,63.0,63.0,65.0,50.0,58.0,62.0,62.0,61.0,63.0,56.0,51.0,54.0,62.0,55.0,65.0,50.0,44.0,59.0,61.0,60.0,54.0,57.0,60.0,57.0,56.0,64.0,59.0,60.0,65.0,58.0,64.0,57.0,63.0,54.0,57.0,53.0,57.0,59.0,67.0,60.0,65.0,54.0,57.0,56.0,57.0,65.0,58.0,67.0,68.0,59.0,52.0,62.0,53.0,58.0,59.0,59.0,56.0,59.0,60.0,53.0,64.0,56.0,57.0,60.0,42.0,63.0,60.0,67.0,61.0,61.0,63.0,50.0,61.0,52.0,45.0,53.0,50.0,56.0,54.0,62.0,65.0,54.0,56.0,63.0,59.0,50.0,69.0,59.0,55.0,58.0,65.0,60.0,59.0,62.0,64.0,63.0,56.0,61.0,63.0,60.0,43.0,63.0,55.0,60.0,55.0,62.0,63.0,60.0,50.0,53.0,55.0,56.0,41.0,55.0,58.0,60.0,61.0,63.0,53.0,57.0,49.0,56.0,52.0,61.0,63.0,56.0,45.0,63.0,51.0,46.0,59.0,62.0,61.0,66.0,62.0,55.0,54.0,48.0,60.0,55.0,65.0,59.0,45.0,56.0,61.0,55.0,61.0,58.0,61.0,60.0,67.0,58.0,56.0,59.0,52.0,56.0,61.0,66.0,58.0,64.0,55.0,64.0,41.0,56.0,65.0,50.0,49.0,59.0,53.0,42.0,65.0,65.0,59.0,62.0,49.0,67.0,54.0,63.0,58.0,60.0,60.0,64.0,62.0,51.0,58.0,60.0,63.0,57.0,58.0,48.0,57.0,61.0,59.0,56.0,59.0,62.0,59.0,48.0,61.0,66.0,53.0,51.0,61.0,51.0,56.0,44.0,60.0,57.0,57.0,59.0,59.0,65.0,63.0,58.0,61.0,47.0,67.0,55.0,56.0,57.0,66.0,61.0,51.0,62.0,58.0,64.0,45.0,60.0,44.0,57.0,59.0,58.0,46.0,62.0,45.0,61.0,54.0,68.0,55.0,44.0,61.0,60.0,62.0,54.0,51.0,57.0,46.0,65.0,50.0,61.0,62.0,66.0,64.0,66.0,55.0,50.0,54.0,67.0,64.0,56.0,63.0,67.0,61.0,67.0,64.0,62.0,45.0,59.0,56.0,58.0,57.0,57.0,59.0,49.0,64.0,58.0,63.0,49.0,60.0,37.0,56.0,62.0,59.0,49.0,58.0,63.0,61.0,65.0,61.0,49.0,62.0,51.0,60.0,59.0,56.0,64.0,65.0,58.0,51.0,57.0,63.0,55.0,56.0,63.0,67.0,63.0,47.0,47.0,42.0,66.0,59.0,56.0,54.0,53.0,62.0,62.0,60.0,53.0,59.0,59.0,63.0,57.0,65.0,61.0,67.0,48.0,59.0,53.0,62.0,54.0,60.0,65.0,62.0,67.0,57.0,51.0,63.0,51.0,61.0,57.0,64.0,64.0,63.0,52.0,50.0,63.0,64.0,62.0,61.0,60.0,59.0,61.0,61.0,48.0,59.0,65.0,57.0,59.0,65.0,51.0,62.0,53.0,64.0,49.0,58.0,61.0,59.0,49.0,65.0,46.0,61.0,52.0,54.0,58.0,57.0,67.0,58.0,63.0,48.0,59.0,65.0,66.0,59.0,55.0,57.0,51.0,59.0,47.0,62.0,59.0,58.0,63.0,66.0,48.0,64.0,53.0,61.0,62.0,49.0,54.0,56.0,54.0,54.0,53.0,58.0,62.0,59.0,59.0,53.0,59.0,51.0,57.0,57.0,53.0,50.0,45.0,26.0,54.0,60.0,56.0,62.0,58.0,50.0,48.0,52.0,56.0,58.0,64.0,60.0,55.0,54.0,63.0,56.0,51.0,56.0,59.0,66.0,48.0,59.0,51.0,63.0,43.0,66.0,64.0,56.0,51.0,52.0,55.0,55.0,57.0,58.0,58.0,58.0,53.0,51.0,51.0,54.0,60.0,56.0,47.0,58.0,56.0,61.0,57.0,64.0,51.0,49.0,51.0,55.0,61.0,66.0,58.0,58.0,63.0,56.0,53.0,67.0,58.0,56.0,61.0,65.0,51.0,55.0,55.0,66.0,62.0,51.0,54.0,54.0,52.0,63.0,58.0,52.0,56.0,60.0,60.0,54.0,50.0,63.0,64.0,65.0,65.0,55.0,61.0,63.0,64.0,53.0,59.0,53.0,58.0,57.0,63.0,56.0,51.0
+Q Learning Rewards,-1282.0,-616.0,-320.0,-237.0,-1556.0,-451.0,-276.0,-696.0,-200.0,-14.0,-256.0,-648.0,-24.0,-464.0,-723.0,-225.0,-10.0,-257.0,-71.0,-99.0,-90.0,-211.0,-80.0,-191.0,14.0,-32.0,4.0,-154.0,15.0,-152.0,-964.0,60.0,8.0,-81.0,21.0,-44.0,-90.0,-16.0,-67.0,-386.0,-206.0,-140.0,-16.0,-16.0,-8.0,-163.0,-170.0,8.0,-98.0,-84.0,-166.0,-483.0,13.0,-87.0,47.0,2.0,2.0,-31.0,-42.0,-84.0,30.0,22.0,45.0,31.0,-54.0,39.0,34.0,-54.0,-2.0,-43.0,-10.0,-78.0,-545.0,2.0,-23.0,-5.0,-12.0,-45.0,33.0,-91.0,-92.0,-58.0,-21.0,-18.0,1.0,35.0,-72.0,45.0,6.0,11.0,8.0,-206.0,-251.0,-106.0,3.0,-4.0,37.0,-6.0,22.0,4.0,-8.0,12.0,-179.0,-4.0,-27.0,-100.0,-34.0,38.0,-36.0,43.0,-220.0,-10.0,-38.0,56.0,-63.0,-1.0,23.0,44.0,-81.0,15.0,-203.0,-99.0,27.0,41.0,-65.0,42.0,-18.0,-126.0,-13.0,16.0,28.0,-60.0,-110.0,18.0,22.0,-74.0,21.0,35.0,34.0,-8.0,48.0,-8.0,55.0,-10.0,-19.0,-79.0,-1.0,15.0,-358.0,-78.0,-170.0,-68.0,-33.0,18.0,-32.0,7.0,-23.0,40.0,-77.0,-5.0,-25.0,-55.0,36.0,54.0,5.0,23.0,-63.0,-98.0,8.0,-19.0,-86.0,37.0,13.0,-257.0,-17.0,-69.0,-13.0,-90.0,27.0,9.0,-17.0,-145.0,-21.0,-37.0,46.0,-5.0,37.0,-13.0,25.0,-3.0,9.0,-27.0,25.0,-13.0,-91.0,29.0,34.0,33.0,-246.0,-55.0,-92.0,-32.0,-32.0,-29.0,-163.0,3.0,13.0,-136.0,25.0,28.0,20.0,-7.0,-94.0,33.0,12.0,-100.0,-88.0,2.0,38.0,-167.0,-3.0,9.0,-92.0,-17.0,28.0,18.0,38.0,-150.0,2.0,17.0,0.0,12.0,-126.0,-66.0,-28.0,18.0,-2.0,51.0,-31.0,-22.0,27.0,46.0,-176.0,-11.0,15.0,-24.0,-94.0,-59.0,-44.0,10.0,-80.0,14.0,16.0,-141.0,-69.0,19.0,-30.0,-8.0,-66.0,-48.0,-19.0,-75.0,25.0,-18.0,36.0,3.0,17.0,-12.0,34.0,12.0,13.0,-41.0,-23.0,40.0,15.0,12.0,27.0,32.0,-12.0,-86.0,-9.0,20.0,15.0,-47.0,-38.0,-114.0,4.0,17.0,-36.0,-3.0,-8.0,-21.0,49.0,-51.0,16.0,50.0,1.0,13.0,-26.0,-21.0,-83.0,-213.0,-94.0,15.0,-48.0,48.0,26.0,30.0,-158.0,0.0,-47.0,-178.0,-11.0,-6.0,6.0,-96.0,31.0,-2.0,30.0,-12.0,8.0,11.0,-19.0,2.0,-40.0,1.0,-113.0,38.0,-23.0,-18.0,-32.0,53.0,-43.0,41.0,-33.0,-10.0,0.0,-5.0,-83.0,-61.0,35.0,-23.0,-1.0,20.0,-184.0,3.0,-11.0,-243.0,-201.0,-122.0,-79.0,-54.0,-39.0,-12.0,2.0,-41.0,17.0,-20.0,-95.0,31.0,-8.0,-2.0,40.0,-38.0,-7.0,-70.0,-42.0,-78.0,19.0,-110.0,27.0,-44.0,41.0,-51.0,-23.0,-51.0,46.0,-51.0,17.0,25.0,-10.0,11.0,-35.0,14.0,59.0,-14.0,52.0,-12.0,-35.0,-91.0,-16.0,11.0,-27.0,35.0,28.0,21.0,13.0,25.0,-7.0,42.0,-15.0,-74.0,55.0,21.0,-10.0,1.0,20.0,7.0,-26.0,11.0,-2.0,26.0,31.0,-73.0,19.0,32.0,-8.0,-17.0,-35.0,-37.0,-5.0,44.0,-53.0,-25.0,22.0,16.0,21.0,-6.0,-122.0,28.0,-490.0,-86.0,43.0,-15.0,-151.0,-16.0,-151.0,4.0,8.0,-4.0,-151.0,12.0,-22.0,-170.0,-38.0,23.0,-90.0,16.0,25.0,5.0,31.0,-72.0,-30.0,-10.0,51.0,33.0,5.0,-240.0,-39.0,-9.0,5.0,23.0,33.0,-265.0,42.0,-38.0,33.0,30.0,21.0,11.0,36.0,27.0,-123.0,14.0,9.0,-2.0,-13.0,24.0,-16.0,1.0,2.0,-30.0,11.0,-23.0,-211.0,11.0,-37.0,35.0,28.0,-2.0,-26.0,-23.0,-179.0,-33.0,29.0,16.0,-20.0,-87.0,17.0,-95.0,-14.0,-95.0,-233.0,26.0,30.0,15.0,-12.0,54.0,-3.0,27.0,-4.0,15.0,-24.0,-45.0,7.0,7.0,33.0,-71.0,36.0,-104.0,-39.0,25.0,-60.0,-45.0,-4.0,-140.0,-15.0,-37.0,-242.0,45.0,-89.0,9.0,39.0,33.0,28.0,-14.0,27.0,-78.0,-166.0,-9.0,-13.0,0.0,4.0,-29.0,18.0,33.0,-35.0,-91.0,47.0,-11.0,-7.0,19.0,48.0,-52.0,-26.0,-56.0,12.0,10.0,21.0,-213.0,15.0,-17.0,-22.0,-38.0,13.0,-15.0,16.0,13.0,-85.0,36.0,-109.0,10.0,7.0,28.0,6.0,32.0,-64.0,-400.0,-36.0,18.0,41.0,53.0,-59.0,-105.0,-59.0,51.0,-24.0,13.0,33.0,19.0,23.0,25.0,43.0,29.0,-185.0,-28.0,57.0,-12.0,39.0,19.0,-8.0,-75.0,25.0,-241.0,40.0,-17.0,32.0,-26.0,-31.0,-52.0,36.0,45.0,-79.0,-33.0,46.0,-36.0,-482.0,33.0,29.0,-176.0,-18.0,34.0,13.0,17.0,28.0,7.0,51.0,40.0,19.0,-22.0,-7.0,27.0,-556.0,29.0,32.0,16.0,11.0,-17.0,-14.0,-100.0,1.0,-53.0,-5.0,11.0,-41.0,-1.0,-48.0,43.0,49.0,-21.0,-96.0,-38.0,41.0,-86.0,45.0,-28.0,19.0,39.0,-203.0,8.0,21.0,33.0,-2.0,4.0,23.0,-3.0,2.0,17.0,40.0,-93.0,23.0,-30.0,1.0,-50.0,-204.0,57.0,-100.0,-4.0,-103.0,-9.0,-16.0,36.0,19.0,45.0,7.0,-26.0,13.0,36.0,-58.0,-89.0,-48.0,41.0,26.0,-11.0,6.0,-25.0,28.0,-58.0,-26.0,28.0,16.0,-299.0,28.0,25.0,36.0,-123.0,12.0,-19.0,51.0,-66.0,-96.0,38.0,13.0,-291.0,-4.0,-113.0,12.0,24.0,-49.0,-38.0,3.0,20.0,-120.0,-18.0,-7.0,-11.0,-28.0,-9.0,7.0,55.0,8.0,-24.0,-25.0,40.0,-53.0,9.0,-189.0,-48.0,-236.0,-26.0,15.0,17.0,-7.0,-60.0,-22.0,-122.0,32.0,-4.0,36.0,-13.0,13.0,-146.0,-18.0,-8.0,-11.0,42.0,-17.0,34.0,-17.0,-124.0,6.0,-32.0,-109.0,0.0,-29.0,-74.0,7.0,-3.0,-116.0,-80.0,-21.0,10.0,-92.0,23.0,37.0,-82.0,44.0,-207.0,-5.0,-8.0,-91.0,25.0,-45.0,-94.0,-46.0,-27.0,34.0,-161.0,34.0,24.0,-17.0,-28.0,-50.0,-17.0,-164.0,-56.0,-14.0,-117.0,-46.0,-1.0,-6.0,-143.0,19.0,-73.0,22.0,-34.0,-1.0,0.0,32.0,-19.0,-25.0,18.0,-5.0,-51.0,0.0,-3.0,-98.0,-10.0,-63.0,-14.0,-20.0,51.0,-20.0,35.0,10.0,-26.0,-58.0,-4.0,2.0,43.0,-82.0,-206.0,-126.0,-11.0,20.0,-80.0,-68.0,-57.0,-18.0,27.0,-237.0,17.0,27.0,45.0,-194.0,-47.0,-48.0,-62.0,-20.0,-121.0,-16.0,-61.0,-8.0,-31.0,-39.0,49.0,-179.0,12.0,-17.0,15.0,53.0,-23.0,6.0,31.0,45.0,-4.0,-9.0,-58.0,-12.0,-9.0,-42.0,31.0,-64.0,24.0,42.0,22.0,-1.0,-33.0,20.0,-166.0,42.0,8.0,14.0,-21.0,16.0,-81.0,32.0,20.0,-22.0,-17.0,-40.0,-62.0,24.0,-157.0,-35.0,-258.0,-21.0,-53.0,-2.0,47.0,25.0,30.0,26.0,-75.0,-22.0,-22.0,-50.0,12.0,40.0,57.0,16.0,46.0,-13.0,-104.0,41.0,34.0,-45.0,-48.0,37.0,-251.0,23.0,47.0,-16.0,-80.0,26.0,-84.0,20.0,53.0,30.0,-8.0,-5.0,-221.0,-57.0,35.0,-74.0,2.0,35.0,-5.0,-238.0,33.0,39.0,-17.0,-5.0,19.0,22.0,-52.0,37.0,7.0,-46.0,-59.0,-11.0,-43.0,16.0,-184.0,-27.0,35.0,3.0,-82.0,-311.0,30.0,-29.0,27.0,-7.0,-5.0,-11.0,-17.0,28.0,43.0,-12.0,-14.0,-10.0,1.0,-56.0,-147.0,37.0,-188.0,20.0,49.0,-42.0,35.0,-6.0,-38.0,10.0,-149.0,3.0,-109.0,38.0,-5.0,29.0,26.0,12.0,25.0,23.0,35.0,-96.0,-124.0,50.0,-20.0,-87.0,-100.0
