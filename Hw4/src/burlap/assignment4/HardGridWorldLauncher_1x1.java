@@ -69,12 +69,12 @@ public class HardGridWorldLauncher_1x1 {
 		}
 		
 		AnalysisRunner runner = new AnalysisRunner(MAX_ITERATIONS,NUM_INTERVALS);
-//		if(runValueIteration){
-//			runner.runValueIteration(gen,domain,initialState, rf, tf, showValueIterationPolicyMap);
-//		}
-//		if(runPolicyIteration){
-//			runner.runPolicyIteration(gen,domain,initialState, rf, tf, showPolicyIterationPolicyMap);
-//		}
+		if(runValueIteration){
+			runner.runValueIteration(gen,domain,initialState, rf, tf, showValueIterationPolicyMap);
+		}
+		if(runPolicyIteration){
+			runner.runPolicyIteration(gen,domain,initialState, rf, tf, showPolicyIterationPolicyMap);
+		}
 		if(runQLearning){
 			runner.runQLearning(gen,domain,initialState, rf, tf, env, showQLearningPolicyMap);
 		}

@@ -1,18 +1,12 @@
-# Reinforcement Learning and MDPs
-
 # URL https://github.com/LeonUBubble/Machine-Learning-7641-Homework/tree/master/Hw4
-# How to run the code
 
-To run the code, the user should use Intellij IDEA, and build the project from this folder.
 
-In the src\burlap\assignment4\ folder, please locate HardGridWorldLauncher_1x1.java and HardGridWorldLauncher_2x2.java.
+User should open the fold with Intellij IDEA.
 
-They corresponse to the glider retrieve process MDP and the Maze MDP, respectively.
+Please run HardGridWorldLauncher_1x1.java and HardGridWorldLauncher_2x2.java and adjust QLearning function according to your demands corresponding to the glider retrieve process MDP and the Maze MDP, respectively. Then build the project and run these two java files to obtain figures and results.
 
-Build the project and run these two java file to obtain figures and results.
+You should manually create csv data by copy the result from CMD.
 
-You need to manually create csv data by copy the result from CMD.
+# Show the plot
 
-# How to plot
-
-All plotting python codes are inside the folder homework\plots. We need to run .py one by one.
+All plotting python codes start with name "mark" inside the folder homework\plots. We need to run *.py one by one.
